@@ -161,7 +161,7 @@ INCOSE again:
 
 
 
-![img3](sources/PM SE overlap.jpg)
+![img3](./sources/PM SE overlap.jpg)
 
 https://www.pmi.org/learning/library/systems-engineering-project-5857
 
