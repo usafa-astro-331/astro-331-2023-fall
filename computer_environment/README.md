@@ -6,7 +6,7 @@ You will need to install several programs. This folder contains programs and bat
 
 ## install git
 
-If you are just getting started, copy `install_git.bat` to your local machine from https://github.com/usafa-astro-331/Astro-331X-2023/tree/main/computer_environment
+If you are just getting started, copy `install_git.bat` to your local machine from https://github.com/usafa-astro-331/astro-331-2023-fall/tree/main/computer_environment
 
 Verify file contents using a text editor. You should do this before running any script. This script runs two commands using Windows' built-in command `winget` to install `git` and `tortoisegit`.  Complete setup of both programs. 
 
@@ -18,7 +18,7 @@ Verify file contents using a text editor. You should do this before running any 
 
 ## clone the course repository
 
-Copy the path to the course repository: https://github.com/usafa-astro-331/Astro-331X-2023
+Copy the path to the course repository: https://github.com/usafa-astro-331/astro-331-2023-fall/
 
 Go to My Documents. Do not create a new course folder yet. 
 
