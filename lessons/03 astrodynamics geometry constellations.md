@@ -1,8 +1,10 @@
-# 02: astrodynamics, mission geometry, constellations
+# 03: astrodynamics, mission geometry, constellations
 
 
 
 ## admin
+
+
 
 ### assignments
 
@@ -194,6 +196,10 @@ ISS altitude 1998–2014
 ![https://upload.wikimedia.org/wikipedia/commons/d/df/Altitude_of_International_Space_Station.svg](sources/Altitude_of_International_Space_Station.svg)
 
 ![https://gedi.umd.edu/wp-content/uploads/2022/10/1.png](sources/1.png)
+
+Bonus: ISS reboost 
+https://youtu.be/hfO0wIXAxmI
+video is sped up 4x; watch at 1/4 speed for real-time
 
 ## mission geometry
 
