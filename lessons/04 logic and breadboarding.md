@@ -39,7 +39,7 @@ Many additional gates are possible. Here are some basic ones:
 
 | Type                                                    | Distinctive shape <br />(IEEE Std 91/91a-1991)               | [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra) | [Truth table](https://en.wikipedia.org/wiki/Truth_table)    |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| **[Buffer](https://en.wikipedia.org/wiki/Buffer_gate)** | ![Buffer](sources/Buffer.svg)| A                                                            | `A Q`<br />`0 0`<br />`1 1`                                 |
+| **[Buffer](https://en.wikipedia.org/wiki/Buffer_gate)** | ![Buffer](./sources/Buffer.svg)| A                                                            | `A Q`<br />`0 0`<br />`1 1`                                 |
 | **[NAND](https://en.wikipedia.org/wiki/NAND_gate)**     | ![NAND](sources/NAND.svg) | $\overline{A \cdot B}$                                       | `A B Q`<br />`0 0 1`<br />`0 1 1`<br />`1 0 1`<br />`1 1 0` |
 | **[NOR](https://en.wikipedia.org/wiki/NOR_gate)**       | ![NOR](sources/NOR.svg) | $\overline{A + B}$                                           | `A B Q`<br />`0 0 1`<br />`0 1 0`<br />`1 0 0`<br />`1 1 0` |
 | **[XOR](https://en.wikipedia.org/wiki/XOR_gate)**       | ![XOR](sources/XOR.svg)| $A \oplus B$                                                 | `A B Q`<br />`0 0 0`<br />`0 1 1`<br />`1 0 1`<br />`1 1 0` |
