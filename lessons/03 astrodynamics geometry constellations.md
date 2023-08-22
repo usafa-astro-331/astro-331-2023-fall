@@ -160,7 +160,7 @@ $$
 ##### RAAN drift
 
 $$
-\dot{\Omega}_{J2} = -4.171\times 10^7 \cos i \ a^{-7/2} \\
+\dot{\Omega}_{J2} = -4.171\times 10^7 \ a^{-7/2} \ \cos i  \\
 \dot{\Omega}_{moon} = -4.97\times10^{-14} \frac{\cos i}{n} \\
 \dot{\Omega}_{sun} = -2.26\times10^{-14} \frac{\cos i}{n} \\
 $$
@@ -216,13 +216,20 @@ SMAD Ch 5.2-5.3
 
 
 $$
-\sin \rho = \cos \lambda_0 = \frac{R_E}{R_E+H} \\
-\sin \eta = \cos \varepsilon \sin \rho \\
-\tan \eta = \frac{\sin \rho \sin \lambda}{1-\sin\rho \cos\lambda} \\
-\eta + \lambda + \varepsilon = 90° \\ 
+\sin \rho = \cos \lambda_0 = \frac{R_E}{R_E+H} 
+$$
+$$
+\sin \eta = \cos \varepsilon \sin \rho 
+$$
+$$
+\tan \eta = \frac{\sin \rho \sin \lambda}{1-\sin\rho \cos\lambda} 
+$$
+$$
+\eta + \lambda + \varepsilon = 90° 
+$$
+$$
 D = R_E \frac{\sin\lambda}{\sin\eta}
 $$
-
 
 <img src="sources/image-20230817205317054.png" alt="SMAD Fig 5-12" style="zoom:50%;" />
 
