@@ -16,7 +16,7 @@ write the answers on your homework
 
 
 
-[ ]: # (M3: Don’t tell M6 that we have a quiz today. )
+[ note: ]: # (M3: Don’t tell M6 that we have a quiz today. )
 
 
 
