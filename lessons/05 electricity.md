@@ -119,7 +119,7 @@ terminology confusion
 
 
 
-<img src="sources/servlet.jpg" alt="https://www.se.com/us/en/faqs/FA156527/" style="zoom:50%;" />     ![image-20230823235957958](sources/nmb.png)
+<img src="sources/nema 5-15.jpg" alt="https://www.se.com/us/en/faqs/FA156527/" style="zoom:50%;" />     ![image-20230823235957958](sources/nmb.png)
 
 
 
