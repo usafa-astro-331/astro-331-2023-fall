@@ -1,0 +1,1 @@
+inkscape --pdf-poppler --pdf-page=1 --export-type=svg --export-text-to-path --export-area-drawing --export-filename metrology_c.svg metrology_c.pdf

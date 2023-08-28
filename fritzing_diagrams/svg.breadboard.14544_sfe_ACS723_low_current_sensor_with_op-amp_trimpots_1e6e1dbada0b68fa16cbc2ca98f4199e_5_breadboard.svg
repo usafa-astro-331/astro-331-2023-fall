@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" y="0in"  width="1.25in" gorn="0" version="1.2" viewBox="0 0 90 43.2" id="svg466" height="0.6in" x="0in">
+    <desc >
+        <referenceFile >ACS.svg</referenceFile>
+    </desc>
+    <metadata  id="metadata472">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work rdf:about="" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs470"/>
+    <g  gorn="0.3" id="g464" partID="854279450">
+        <g  gorn="0.3.0" id="breadboard">
+            <g  gorn="0.3.0.0" id="icon">
+                <path stroke="none"  gorn="0.3.0.0.0" stroke-width="0" fill="#e6321e" id="path2" d="M 0,43.2 V 0 H 90 V 43.2 H 0 M 78.48,36 a 4.32,4.32 0 1 0 8.64,0 4.32,4.32 0 1 0 -8.64,0 z M 4.86,10.8 a 5.94,5.94 0 1 0 11.88,0 5.94,5.94 0 1 0 -11.88,0 z m 0,21.6 a 5.94,5.94 0 1 0 11.88,0 5.94,5.94 0 1 0 -11.88,0 z m 15.3,-7.2 a 1.44,1.44 0 1 0 2.88,0 1.44,1.44 0 1 0 -2.88,0 z m 0,-7.2 a 1.44,1.44 0 1 0 2.88,0 1.44,1.44 0 1 0 -2.88,0 z m 64.8,-7.2 a 1.44,1.44 0 1 0 2.88,0 1.44,1.44 0 1 0 -2.88,0 z m 0,7.2 a 1.44,1.44 0 1 0 2.88,0 1.44,1.44 0 1 0 -2.88,0 z m 0,7.2 a 1.44,1.44 0 1 0 2.88,0 1.44,1.44 0 1 0 -2.88,0 z"/>
+                <g  gorn="0.3.0.0.1" id="g324">
+                    <title  id="title4">layer 21</title>
+                    <g  gorn="0.3.0.0.1.1" id="g10">
+                        <title  id="title6">text:GND</title>
+                        <text stroke="none" y="27.1008" style="font-family:OCRA;text-anchor:end;"  gorn="0.3.0.0.1.1.1" stroke-width="0" fill="#ffffff" font-size="2.67264" id="text8" x="82.440002">GND</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.2" id="g16">
+                        <title  id="title12">text:VO</title>
+                        <text stroke="none" y="19.900801" style="font-family:OCRA;text-anchor:end;"  gorn="0.3.0.0.1.2.1" stroke-width="0" fill="#ffffff" font-size="2.67264" id="text14" x="82.440002">VO</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.3" id="g22">
+                        <title  id="title18">text:VCC</title>
+                        <text stroke="none" y="12.7008" style="font-family:OCRA;text-anchor:end;"  gorn="0.3.0.0.1.3.1" stroke-width="0" fill="#ffffff" font-size="2.67264" id="text20" x="82.440002">VCC</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.4" id="g28">
+                        <title  id="title24">text:GAIN</title>
+                        <text stroke="none" y="40.248001" style="font-family:OCRA;text-anchor:start;"  gorn="0.3.0.0.1.4.1" stroke-width="0" fill="#ffffff" font-size="3.3408" id="text26" x="35.568001">GAIN</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.5" id="g34">
+                        <title  id="title30">text:Vref</title>
+                        <text stroke="none" y="7.1279998" style="font-family:OCRA;text-anchor:end;"  gorn="0.3.0.0.1.5.1" stroke-width="0" fill="#ffffff" font-size="3.3408" id="text32" x="76.968002">Vref</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.6" id="g40">
+                        <title  id="title36">text:IP+</title>
+                        <text stroke="none" y="13.464" style="font-family:OCRA;text-anchor:start;"  gorn="0.3.0.0.1.6.1" stroke-width="0" fill="#ffffff" font-size="3.67488" id="text38" x="21.6">IP+</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.7" id="g46">
+                        <title  id="title42">text:IP-</title>
+                        <text stroke="none" y="33.695999" style="font-family:OCRA;text-anchor:start;"  gorn="0.3.0.0.1.7.1" stroke-width="0" fill="#ffffff" font-size="3.67488" id="text44" x="21.6">IP-</text>
+                    </g>
+                    <g  gorn="0.3.0.0.1.8" id="g54">
+                        <title  id="title48">element:C1</title>
+                        <g  gorn="0.3.0.0.1.8.1" id="g52">
+                            <title  id="title50">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.9" id="g62">
+                        <title  id="title56">element:C2</title>
+                        <g  gorn="0.3.0.0.1.9.1" id="g60">
+                            <title  id="title58">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.10" id="g70">
+                        <title  id="title64">element:C3</title>
+                        <g  gorn="0.3.0.0.1.10.1" id="g68">
+                            <title  id="title66">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.11" id="g78">
+                        <title  id="title72">element:C4</title>
+                        <g  gorn="0.3.0.0.1.11.1" id="g76">
+                            <title  id="title74">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.12" id="g86">
+                        <title  id="title80">element:C5</title>
+                        <g  gorn="0.3.0.0.1.12.1" id="g84">
+                            <title  id="title82">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.13" id="g94">
+                        <title  id="title88">element:FD1</title>
+                        <g  gorn="0.3.0.0.1.13.1" id="g92">
+                            <title  id="title90">package:FIDUCIAL-1X2</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.14" id="g102">
+                        <title  id="title96">element:FD2</title>
+                        <g  gorn="0.3.0.0.1.14.1" id="g100">
+                            <title  id="title98">package:FIDUCIAL-1X2</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.15" id="g110">
+                        <title  id="title104">element:FD3</title>
+                        <g  gorn="0.3.0.0.1.15.1" id="g108">
+                            <title  id="title106">package:FIDUCIAL-1X2</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.16" id="g118">
+                        <title  id="title112">element:FD4</title>
+                        <g  gorn="0.3.0.0.1.16.1" id="g116">
+                            <title  id="title114">package:FIDUCIAL-1X2</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.17" id="g126">
+                        <title  id="title120">element:H1</title>
+                        <g  gorn="0.3.0.0.1.17.1" id="g124">
+                            <title  id="title122">package:STAND-OFF-TIGHT</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.18" id="g134">
+                        <title  id="title128">element:J1</title>
+                        <g  gorn="0.3.0.0.1.18.1" id="g132">
+                            <title  id="title130">package:SMTSO-256-ET-0.165DIA</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.19" id="g142">
+                        <title  id="title136">element:J2</title>
+                        <g  gorn="0.3.0.0.1.19.1" id="g140">
+                            <title  id="title138">package:SMTSO-256-ET-0.165DIA</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.20" id="g150">
+                        <title  id="title144">element:J3</title>
+                        <g  gorn="0.3.0.0.1.20.1" id="g148">
+                            <title  id="title146">package:1X02_NO_SILK</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.21" id="g158">
+                        <title  id="title152">element:JP1</title>
+                        <g  gorn="0.3.0.0.1.21.1" id="g156">
+                            <title  id="title154">package:SMT-JUMPER_2_NO_SILK</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.22" id="g206">
+                        <title  id="title160">element:JP3</title>
+                        <g  gorn="0.3.0.0.1.22.1" id="g204">
+                            <title  id="title162">package:1X03</title>
+                            <line stroke="#ffffff" x1="88.199997" x2="90" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.1" y2="23.4" stroke-width="0.57599998" id="line164" y1="21.6"/>
+                            <line stroke="#ffffff" x1="90" x2="90" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.2" y2="27" stroke-width="0.57599998" id="line166" y1="23.4"/>
+                            <line stroke="#ffffff" x1="90" x2="88.199997" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.3" y2="28.799999" stroke-width="0.57599998" id="line168" y1="27"/>
+                            <line stroke="#ffffff" x1="84.599998" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.4" y2="27" stroke-width="0.57599998" id="line170" y1="28.799999"/>
+                            <line stroke="#ffffff" x1="82.800003" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.5" y2="23.4" stroke-width="0.57599998" id="line172" y1="27"/>
+                            <line stroke="#ffffff" x1="82.800003" x2="84.599998" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.6" y2="21.6" stroke-width="0.57599998" id="line174" y1="23.4"/>
+                            <line stroke="#ffffff" x1="90" x2="90" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.7" y2="12.6" stroke-width="0.57599998" id="line176" y1="9"/>
+                            <line stroke="#ffffff" x1="90" x2="88.199997" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.8" y2="14.4" stroke-width="0.57599998" id="line178" y1="12.6"/>
+                            <line stroke="#ffffff" x1="84.599998" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.9" y2="12.6" stroke-width="0.57599998" id="line180" y1="14.4"/>
+                            <line stroke="#ffffff" x1="88.199997" x2="90" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.10" y2="16.200001" stroke-width="0.57599998" id="line182" y1="14.4"/>
+                            <line stroke="#ffffff" x1="90" x2="90" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.11" y2="19.799999" stroke-width="0.57599998" id="line184" y1="16.200001"/>
+                            <line stroke="#ffffff" x1="90" x2="88.199997" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.12" y2="21.6" stroke-width="0.57599998" id="line186" y1="19.799999"/>
+                            <line stroke="#ffffff" x1="84.599998" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.13" y2="19.799999" stroke-width="0.57599998" id="line188" y1="21.6"/>
+                            <line stroke="#ffffff" x1="82.800003" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.14" y2="16.200001" stroke-width="0.57599998" id="line190" y1="19.799999"/>
+                            <line stroke="#ffffff" x1="82.800003" x2="84.599998" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.15" y2="14.4" stroke-width="0.57599998" id="line192" y1="16.200001"/>
+                            <line stroke="#ffffff" x1="88.199997" x2="84.599998" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.16" y2="7.1999998" stroke-width="0.57599998" id="line194" y1="7.1999998"/>
+                            <line stroke="#ffffff" x1="90" x2="88.199997" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.17" y2="7.1999998" stroke-width="0.57599998" id="line196" y1="9"/>
+                            <line stroke="#ffffff" x1="84.599998" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.18" y2="9" stroke-width="0.57599998" id="line198" y1="7.1999998"/>
+                            <line stroke="#ffffff" x1="82.800003" x2="82.800003" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.19" y2="9" stroke-width="0.57599998" id="line200" y1="12.6"/>
+                            <line stroke="#ffffff" x1="88.199997" x2="84.599998" style="stroke-linecap:round"  gorn="0.3.0.0.1.22.1.20" y2="28.799999" stroke-width="0.57599998" id="line202" y1="28.799999"/>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.23" id="g214">
+                        <title  id="title208">element:LOGO1</title>
+                        <g  gorn="0.3.0.0.1.23.1" id="g212">
+                            <title  id="title210">package:SFE_LOGO_NAME_FLAME_.1</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.24" id="g222">
+                        <title  id="title216">element:LOGO2</title>
+                        <g  gorn="0.3.0.0.1.24.1" id="g220">
+                            <title  id="title218">package:OSHW-LOGO-S</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.25" id="g236">
+                        <title  id="title224">element:LOGO3</title>
+                        <g  gorn="0.3.0.0.1.25.1" id="g234">
+                            <title  id="title226">package:SFE_LOGO_FLAME_.1</title>
+                            <g  gorn="0.3.0.0.1.25.1.1" id="g232">
+                                <title  id="title228">polygon</title>
+                                <path stroke="#ffffff" style="stroke-linecap:round"  gorn="0.3.0.0.1.25.1.1.1" stroke-width="0.21600001" fill="none" id="path230" d="m 39.4869,3.66973 v 0.25512 m 0,0 -0.0284,0.08504 m 0,0 -0.0283,0.05669 m 0,0 -0.085,0.08504 m 0,0 -0.085,0.02835 m 0,0 h -0.0851 m 0,0 -0.2268,-0.0567 m 0,0 -0.1134,-0.05669 m 0,0 -0.085,-0.05669 m 0,0 -0.1134,-0.08504 m 0,0 -0.1701,-0.17008 m 0,0 -0.1134,-0.17008 m 0,0 -0.0283,-0.11338 m 0,0 V 3.30123 m 0,0 0.0283,-0.08504 m 0,0 0.0284,-0.05669 m 0,0 0.0567,-0.08504 m 0,0 0.1134,-0.08504 m 0,0 0.1134,-0.05669 m 0,0 0.1417,-0.02835 m 0,0 0.1134,-0.02835 m 0,0 h 0.17 m 0,0 0.0568,0.02835 m 0,0 h 0.0283 m 0,0 -0.0283,-0.02835 m 0,0 -0.1134,-0.08504 m 0,0 -0.3969,-0.19842 m 0,0 -0.2551,-0.05669 m 0,0 h -0.2835 m 0,0 -0.3118,0.05669 m 0,0 -0.3118,0.17008 m 0,0 -0.2551,0.19842 m 0,0 -0.1417,0.22677 m 0,0 -0.0851,0.25512 m 0,0 v 0.22677 m 0,0 0.0567,0.25512 m 0,0 0.1417,0.25512 m 0,0 0.1984,0.22677 m 0,0 0.2268,0.25512 m 0,0 0.1985,0.19842 m 0,0 0.085,0.22677 m 0,0 v 0.19843 m 0,0 -0.0567,0.17008 m 0,0 -0.1134,0.14173 m 0,0 -0.1701,0.11339 m 0,0 -0.2267,0.05669 m 0,0 h -0.2268 m 0,0 -0.1417,-0.02834 m 0,0 -0.1418,-0.0567 m 0,0 -0.1701,-0.17007 m 0,0 -0.0566,-0.08504 m 0,0 -0.0284,-0.08504 m 0,0 v -0.1134 m 0,0 0.0284,-0.08504 m 0,0 0.17,-0.17007 m 0,0 0.0851,-0.02835 m 0,0 0.1134,-0.05669 m 0,0 0.0283,-0.02835 m 0,0 -0.1134,-0.05669 m 0,0 h -0.3402 m 0,0 -0.17,0.02834 m 0,0 -0.1417,0.02835 m 0,0 -0.1418,0.05669 m 0,0 -0.1134,0.08504 m 0,0 -0.1417,0.11339 m 0,0 -0.17,0.28347 m 0,0 -0.0568,0.19842 m 0,0 -0.0283,0.22678 m 0,0 v 3.88347 m 0,0 0.1417,-0.14176 m 0,0 0.0851,-0.1417 m 0,0 0.1417,-0.14177 m 0,0 0.1417,-0.17006 m 0,0 0.3401,-0.34013 m 0,0 0.3402,-0.39686 m 0,0 0.2835,-0.28347 m 0,0 0.2835,-0.17006 m 0,0 0.17,-0.02837 m 0,0 h 0.5386 m 0,0 0.3402,-0.05666 m 0,0 0.3118,-0.08511 m 0,0 0.2835,-0.11333 m 0,0 0.2835,-0.17013 m 0,0 0.2267,-0.19836 m 0,0 0.2268,-0.22681 m 0,0 0.1984,-0.25512 m 0,0 0.2835,-0.51023 m 0,0 0.1417,-0.53858 m 0,0 0.0283,-0.4819 m 0,0 -0.085,-0.45354 m 0,0 -0.1418,-0.4252 m 0,0 -0.1984,-0.31181 m 0,0 -0.2267,-0.25512 m 0,0 -0.2268,-0.14173 M 35.5751,9.648 h 0.0595 M 35.5751,9.432 h 0.222 m -0.222,-0.216 h 0.4237 M 35.5751,9 h 0.6225 M 35.5751,8.784 h 0.8385 M 35.5751,8.568 h 1.0253 M 35.5751,8.352 h 1.2138 M 35.5751,8.136 h 1.4298 M 35.5751,7.92 h 1.7677 M 35.5751,7.704 h 3.2371 M 35.5751,7.488 H 39.227 M 35.5751,7.272 h 3.9092 M 35.5751,7.056 h 4.1256 M 35.5751,6.84 h 4.2964 M 35.5751,6.624 h 4.428 m -4.428,-0.216 h 4.5481 M 35.5751,6.192 h 4.643 m -4.643,-0.216 h 4.6998 M 35.5831,5.76 h 1.4858 m 0.2931,0 h 2.9697 m -4.713,-0.216 h 1.0653 m 1.0881,0 h 2.5766 M 35.7026,5.328 h 0.8646 m 1.3181,0 h 2.4762 m -4.527,-0.216 h 0.7928 m 1.2722,0 h 2.4389 M 36.1377,4.896 h 0.8116 m 0.8786,0 h 2.47 M 37.6342,4.68 h 2.6052 M 37.4401,4.464 h 2.7273 m -2.917,-0.216 h 2.8055 M 37.1087,4.032 h 1.6744 m 0.6644,0 h 0.4622 M 37.0249,3.816 h 1.5027 m 0.9593,0 h 0.2308 M 36.9924,3.6 h 1.3709 M 37.012,3.384 h 1.3127 M 37.0899,3.168 h 1.2873 M 37.2308,2.952 h 1.3955 M 37.5232,2.736 h 1.4001"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.26" id="g244">
+                        <title  id="title238">element:R1</title>
+                        <g  gorn="0.3.0.0.1.26.1" id="g242">
+                            <title  id="title240">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.27" id="g252">
+                        <title  id="title246">element:R2</title>
+                        <g  gorn="0.3.0.0.1.27.1" id="g250">
+                            <title  id="title248">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.28" id="g260">
+                        <title  id="title254">element:R5</title>
+                        <g  gorn="0.3.0.0.1.28.1" id="g258">
+                            <title  id="title256">package:0603</title>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.29" id="g274">
+                        <title  id="title262">element:U1</title>
+                        <g  gorn="0.3.0.0.1.29.1" id="g272">
+                            <title  id="title264">package:SO08</title>
+                            <line stroke="#ffffff" x1="30.8892" x2="41.110802" style="stroke-linecap:round"  gorn="0.3.0.0.1.29.1.1" y2="28.295401" stroke-width="0.43200001" id="line266" y1="28.295401"/>
+                            <line stroke="#ffffff" x1="41.110802" x2="30.8892" style="stroke-linecap:round"  gorn="0.3.0.0.1.29.1.2" y2="14.9046" stroke-width="0.43200001" id="line268" y1="14.9046"/>
+                            <circle stroke="#ffffff" cx="31.535999" r="0.40705499"  gorn="0.3.0.0.1.29.1.3" stroke-width="0.57599998" fill="none" cy="13.716" id="circle270"/>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.30" id="g290">
+                        <title  id="title276">element:U2</title>
+                        <g  gorn="0.3.0.0.1.30.1" id="g288">
+                            <title  id="title278">package:SOT23-5</title>
+                            <line stroke="#ffffff" x1="65.742798" x2="68.1772" style="stroke-linecap:round"  gorn="0.3.0.0.1.30.1.1" y2="21.059999" stroke-width="0.57599998" id="line280" y1="21.059999"/>
+                            <line stroke="#ffffff" x1="68.1772" x2="65.742798" style="stroke-linecap:round"  gorn="0.3.0.0.1.30.1.2" y2="28.26" stroke-width="0.57599998" id="line282" y1="28.26"/>
+                            <line stroke="#ffffff" x1="64.950798" x2="64.950798" style="stroke-linecap:round"  gorn="0.3.0.0.1.30.1.3" y2="24.574301" stroke-width="0.57599998" id="line284" y1="26.0959"/>
+                            <circle stroke="#ffffff" cx="69.839996" r="0.36000001"  gorn="0.3.0.0.1.30.1.4" stroke-width="0" fill="none" cy="29.195999" id="circle286"/>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.31" id="g306">
+                        <title  id="title292">element:VR1</title>
+                        <g  gorn="0.3.0.0.1.31.1" id="g304">
+                            <title  id="title294">package:TRIMPOT-SMD-TC33X</title>
+                            <line stroke="#ffffff" x1="53.586102" x2="59.680698" style="stroke-linecap:round"  gorn="0.3.0.0.1.31.1.1" y2="31.529699" stroke-width="0.72000003" id="line296" y1="31.529699"/>
+                            <line stroke="#ffffff" x1="59.680698" x2="59.680698" style="stroke-linecap:round"  gorn="0.3.0.0.1.31.1.2" y2="33.230499" stroke-width="0.72000003" id="line298" y1="31.529699"/>
+                            <line stroke="#ffffff" x1="53.586102" x2="59.680698" style="stroke-linecap:round"  gorn="0.3.0.0.1.31.1.3" y2="39.750301" stroke-width="0.72000003" id="line300" y1="39.750301"/>
+                            <line stroke="#ffffff" x1="59.680698" x2="59.680698" style="stroke-linecap:round"  gorn="0.3.0.0.1.31.1.4" y2="38.0495" stroke-width="0.72000003" id="line302" y1="39.750301"/>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.1.32" id="g322">
+                        <title  id="title308">element:VR2</title>
+                        <g  gorn="0.3.0.0.1.32.1" id="g320">
+                            <title  id="title310">package:TRIMPOT-SMD-TC33X</title>
+                            <line stroke="#ffffff" x1="56.826099" x2="62.9207" style="stroke-linecap:round"  gorn="0.3.0.0.1.32.1.1" y2="3.44976" stroke-width="0.72000003" id="line312" y1="3.44976"/>
+                            <line stroke="#ffffff" x1="62.9207" x2="62.9207" style="stroke-linecap:round"  gorn="0.3.0.0.1.32.1.2" y2="5.1505499" stroke-width="0.72000003" id="line314" y1="3.44976"/>
+                            <line stroke="#ffffff" x1="56.826099" x2="62.9207" style="stroke-linecap:round"  gorn="0.3.0.0.1.32.1.3" y2="11.6703" stroke-width="0.72000003" id="line316" y1="11.6703"/>
+                            <line stroke="#ffffff" x1="62.9207" x2="62.9207" style="stroke-linecap:round"  gorn="0.3.0.0.1.32.1.4" y2="9.9694796" stroke-width="0.72000003" id="line318" y1="11.6703"/>
+                        </g>
+                    </g>
+                    <g  transform="matrix(0.72542178,0,0,0.72542178,55.037664,2.470377)">
+                        <g >
+                            <g style="display:inline"  gorn="0.3.0.0.1.33.0.0" id="g835">
+                                <g  transform="rotate(90)">
+                                    <g >
+                                        <rect stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="2.596292"  width="4.291245" gorn="0.3.0.0.1.33.0.0.0.0.0" stroke-width="1.58603299" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-0-2-4" height="5.1694064" x="9.5157595"/>
+                                    </g>
+                                </g>
+                                <g  transform="rotate(90)">
+                                    <g >
+                                        <rect stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="2.6119175"  width="4.291245" gorn="0.3.0.0.1.33.0.0.1.0.0" stroke-width="1.58603299" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-0-2" height="5.1694064" x="0.50800812"/>
+                                    </g>
+                                </g>
+                                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="3.3250327"  width="4.5093231" gorn="0.3.0.0.1.33.0.0.2" stroke-width="1.9693687" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-0" height="7.5847673" x="11.548424"/>
+                                <rect stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="0.80601388"  width="19.154533" gorn="0.3.0.0.1.33.0.0.3" stroke-width="2.51826811" fill="#f2f2f2" fill-opacity="1" stroke-opacity="1" id="rect1531" height="12.721225" x="-5.0303879"/>
+                                <g  transform="matrix(0,0.82240745,-0.82240745,0,13.330441,0.95038627)">
+                                    <g >
+                                        <g style="display:inline"  gorn="0.3.0.0.1.33.0.0.4.0.0" id="g933">
+                                            <g  transform="matrix(0,-1.2188196,1.2188196,0,-9.2367156,46.879328)">
+                                                <g >
+                                                    <g style="display:inline"  gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0" id="g1650">
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-38.451805" style="display:inline;"  width="1.5074729" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.0.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect18-9" height="3.0174127" x="13.027516"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-36.700897" style="display:inline;"  width="3.1169243" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.1.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect12-7" height="1.0058044" x="12.22238"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-24.443741" style="display:inline;"  width="1.5074729" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.2.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect16-4" height="2.5889387" x="16.820534"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-24.575325" style="display:inline;"  width="3.4351959" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.3.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect8-0" height="1.0066267" x="14.892811"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-24.424004" style="display:inline;"  width="1.5091177" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.4.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect14-6" height="2.5700233" x="9.5451412"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect y="-24.5597" style="display:inline;"  width="3.4162803" gorn="0.3.0.0.1.33.0.0.4.0.0.0.0.0.5.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect10-1" height="1.0058044" x="9.5451412"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <path style="display:inline;fill:#6b6b6b"  gorn="0.3.0.0.1.33.0.0.4.0.0.1" id="path20" d="M 7.55798,2.432 C 3.384,2.432 -0.08408567,5.8148466 0,9.99 c 0.05141978,2.553175 1.1976643,4.312603 2.7223548,5.797657 v 1.781468 l 4.8356252,-0.02115 5.184548,0.02115 V 15.761158 C 13.921492,14.049088 15.275632,12.432868 15.119,9.99 15.118,5.814 11.734,2.432 7.55798,2.432 Z M 3.323,12.865 V 7.117 h 8.47397 v 5.749 H 3.323 Z"/>
+                                            <g  transform="rotate(-90)">
+                                                <g >
+                                                    <circle stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9854155" r="6.3753104"  gorn="0.3.0.0.1.33.0.0.4.0.0.2.0.0" stroke-width="0" fill="#999999" fill-opacity="1" cy="7.5563807" stroke-opacity="1" id="path1960"/>
+                                                </g>
+                                            </g>
+                                            <g  transform="rotate(-90)">
+                                                <g >
+                                                    <circle stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-10.010493" r="5.003417"  gorn="0.3.0.0.1.33.0.0.4.0.0.3.0.0" stroke-width="0" fill="#cecece" fill-opacity="1" cy="7.5258665" stroke-opacity="1" id="path1968"/>
+                                                </g>
+                                            </g>
+                                            <g  transform="rotate(13.98474,7.5579841,9.9905196)">
+                                                <g >
+                                                    <g style="display:inline"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0" id="g1954">
+                                                        <polygon style="display:inline;fill:#6b6b6b;fill-opacity:1" points="8.57203,10.565 9.26201,13.121 7.66901,13.555 6.977,10.997 "  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.0" id="rect31"/>
+                                                        <path stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.1" stroke-width="2.37599468" fill="#4d4d4d" fill-opacity="1" stroke-opacity="1" id="path1732" d="m 8.6639799,8.8320119 2.0370211,-0.55 L 11.131,9.8770221 9.1235186,10.411925 Z"/>
+                                                        <path stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.2" stroke-width="0" fill="#4d4d4d" fill-opacity="1" stroke-opacity="1" id="path1734" d="m 3.9880003,10.094993 0.429,1.589999 2.070298,-0.547777 -0.4632979,-1.5912431 z"/>
+                                                        <g  transform="translate(-1.1230208,-4.1431587)">
+                                                            <g >
+                                                                <polygon style="display:inline;fill:#6b6b6b;fill-opacity:1" points="8.57203,10.565 9.26201,13.121 7.66901,13.555 6.977,10.997 "  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.3.0.0" id="rect31-6"/>
+                                                            </g>
+                                                        </g>
+                                                        <path stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.4" stroke-width="0" fill="#333333" fill-opacity="1" stroke-opacity="1" id="path1772" d="M 4.4170012,11.684981 3.9880002,10.094991 5.7735554,9.599989 C 5.8563442,9.2720952 5.9665002,8.9442013 6.3200979,8.6163074 l -0.4661187,-1.7624661 1.59503,-0.432 0.482479,1.7287283 c 0.3063874,0.059143 0.6336985,0.1930135 1.0311177,0.57727 L 10.701002,8.2820113 11.131,9.8770213 9.3943657,10.356363 C 9.2869559,10.852741 9.0503242,11.125918 8.801208,11.377531 l 0.4608022,1.74346 -1.593,0.434 -0.4767217,-1.766295 C 6.7599752,11.722934 6.4526843,11.515481 6.2164527,11.227493 Z"/>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.5.0.0" stroke-width="0" fill="#333333" fill-opacity="1" cy="7.5776386" ry="1.8367873" stroke-opacity="1" id="ellipse1825" rx="1.8589171"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.6.0.0" stroke-width="0" fill="#6b6b6b" fill-opacity="1" ry="1.070133" cy="7.5776386" stroke-opacity="1" rx="1.0830261" id="path1753-6"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.33.0.0.4.0.0.4.0.0.7.0.0" stroke-width="0" fill="#1a1a1a" fill-opacity="1" ry="0.58888406" cy="7.5776386" stroke-opacity="1" rx="0.59597903" id="path1753-6-5"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g  transform="matrix(0.72542178,0,0,0.72542178,52.362241,30.577871)">
+                        <g >
+                            <g style="display:inline"  gorn="0.3.0.0.1.34.0.0" id="g2078">
+                                <g  transform="rotate(90)">
+                                    <g >
+                                        <rect stroke="none" y="2.596292" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  width="4.291245" gorn="0.3.0.0.1.34.0.0.0.0.0" stroke-width="1.58603299" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect2030" height="5.1694064" x="9.5157595"/>
+                                    </g>
+                                </g>
+                                <g  transform="rotate(90)">
+                                    <g >
+                                        <rect stroke="none" y="2.6119175" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  width="4.291245" gorn="0.3.0.0.1.34.0.0.1.0.0" stroke-width="1.58603299" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect2032" height="5.1694064" x="0.50800812"/>
+                                    </g>
+                                </g>
+                                <rect stroke="none" y="3.3250327" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  width="4.5093231" gorn="0.3.0.0.1.34.0.0.2" stroke-width="1.9693687" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect2034" height="7.5847673" x="11.548424"/>
+                                <rect stroke="none" y="0.80601388" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  width="19.154533" gorn="0.3.0.0.1.34.0.0.3" stroke-width="2.51826811" fill="#f2f2f2" fill-opacity="1" stroke-opacity="1" id="rect2036" height="12.721225" x="-5.0303879"/>
+                                <g  transform="matrix(0,0.82240745,-0.82240745,0,13.330441,0.95038627)">
+                                    <g >
+                                        <g style="display:inline"  gorn="0.3.0.0.1.34.0.0.4.0.0" id="g2076">
+                                            <g  transform="matrix(0,-1.2188196,1.2188196,0,-9.2367156,46.879328)">
+                                                <g >
+                                                    <g style="display:inline"  gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0" id="g2050">
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-38.451805"  width="1.5074729" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.0.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2038" height="3.0174127" x="13.027516"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-36.700897"  width="3.1169243" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.1.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2040" height="1.0058044" x="12.22238"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-24.443741"  width="1.5074729" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.2.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2042" height="2.5889387" x="16.820534"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-24.575325"  width="3.4351959" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.3.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2044" height="1.0066267" x="14.892811"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-24.424004"  width="1.5091177" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.4.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2046" height="2.5700233" x="9.5451412"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(90)">
+                                                            <g >
+                                                                <rect style="display:inline;" y="-24.5597"  width="3.4162803" gorn="0.3.0.0.1.34.0.0.4.0.0.0.0.0.5.0.0" stroke-width="0.82240742" fill="#dcdcdc" fill-opacity="1" id="rect2048" height="1.0058044" x="9.5451412"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <path style="display:inline;fill:#6b6b6b"  gorn="0.3.0.0.1.34.0.0.4.0.0.1" id="path2052" d="M 7.55798,2.432 C 3.384,2.432 -0.08408567,5.8148466 0,9.99 c 0.05141978,2.553175 1.1976643,4.312603 2.7223548,5.797657 v 1.781468 l 4.8356252,-0.02115 5.184548,0.02115 V 15.761158 C 13.921492,14.049088 15.275632,12.432868 15.119,9.99 15.118,5.814 11.734,2.432 7.55798,2.432 Z M 3.323,12.865 V 7.117 h 8.47397 v 5.749 H 3.323 Z"/>
+                                            <g  transform="rotate(-90)">
+                                                <g >
+                                                    <circle stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9854155" r="6.3753104"  gorn="0.3.0.0.1.34.0.0.4.0.0.2.0.0" stroke-width="0" fill="#999999" fill-opacity="1" cy="7.5563807" stroke-opacity="1" id="circle2054"/>
+                                                </g>
+                                            </g>
+                                            <g  transform="rotate(-90)">
+                                                <g >
+                                                    <circle stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-10.010493" r="5.003417"  gorn="0.3.0.0.1.34.0.0.4.0.0.3.0.0" stroke-width="0" fill="#cecece" fill-opacity="1" cy="7.5258665" stroke-opacity="1" id="circle2056"/>
+                                                </g>
+                                            </g>
+                                            <g  transform="rotate(13.98474,7.5579841,9.9905196)">
+                                                <g >
+                                                    <g style="display:inline"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0" id="g2074">
+                                                        <polygon points="6.977,10.997 8.57203,10.565 9.26201,13.121 7.66901,13.555 " style="display:inline;fill:#6b6b6b;fill-opacity:1"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.0" id="polygon2058"/>
+                                                        <path stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.1" stroke-width="2.37599468" fill="#4d4d4d" fill-opacity="1" stroke-opacity="1" id="path2060" d="m 8.6639799,8.8320119 2.0370211,-0.55 L 11.131,9.8770221 9.1235186,10.411925 Z"/>
+                                                        <path stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.2" stroke-width="0" fill="#4d4d4d" fill-opacity="1" stroke-opacity="1" id="path2062" d="m 3.9880003,10.094993 0.429,1.589999 2.070298,-0.547777 -0.4632979,-1.5912431 z"/>
+                                                        <g  transform="translate(-1.1230208,-4.1431587)">
+                                                            <g >
+                                                                <polygon points="6.977,10.997 8.57203,10.565 9.26201,13.121 7.66901,13.555 " style="display:inline;fill:#6b6b6b;fill-opacity:1"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.3.0.0" id="polygon2064"/>
+                                                            </g>
+                                                        </g>
+                                                        <path stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.4" stroke-width="0" fill="#333333" fill-opacity="1" stroke-opacity="1" id="path2066" d="M 4.4170012,11.684981 3.9880002,10.094991 5.7735554,9.599989 C 5.8563442,9.2720952 5.9665002,8.9442013 6.3200979,8.6163074 l -0.4661187,-1.7624661 1.59503,-0.432 0.482479,1.7287283 c 0.3063874,0.059143 0.6336985,0.1930135 1.0311177,0.57727 L 10.701002,8.2820113 11.131,9.8770213 9.3943657,10.356363 C 9.2869559,10.852741 9.0503242,11.125918 8.801208,11.377531 l 0.4608022,1.74346 -1.593,0.434 -0.4767217,-1.766295 C 6.7599752,11.722934 6.4526843,11.515481 6.2164527,11.227493 Z"/>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.5.0.0" stroke-width="0" fill="#333333" fill-opacity="1" ry="1.8367873" cy="7.5776386" stroke-opacity="1" rx="1.8589171" id="ellipse2068"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.6.0.0" stroke-width="0" fill="#6b6b6b" fill-opacity="1" cy="7.5776386" ry="1.070133" stroke-opacity="1" id="ellipse2070" rx="1.0830261"/>
+                                                            </g>
+                                                        </g>
+                                                        <g  transform="rotate(-90)">
+                                                            <g >
+                                                                <ellipse stroke="none" style="display:inline;opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" cx="-9.9799862"  gorn="0.3.0.0.1.34.0.0.4.0.0.4.0.0.7.0.0" stroke-width="0" fill="#1a1a1a" fill-opacity="1" cy="7.5776386" ry="0.58888406" stroke-opacity="1" id="ellipse2072" rx="0.59597903"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="21.665251"  width="18" gorn="0.3.0.0.2" stroke-width="1.74977446" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-8-9" height="1.5" x="27.004499"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="24.665251"  width="18" gorn="0.3.0.0.3" stroke-width="1.74977446" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-8-8" height="1.5" x="27.004499"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="18.665251"  width="18" gorn="0.3.0.0.4" stroke-width="1.74977446" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49-8" height="1.5" x="27.004499"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="15.665251"  width="18" gorn="0.3.0.0.5" stroke-width="1.74977434" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-49" height="1.5" x="27.004499"/>
+                <rect stroke="none" y="13.3089"  width="10.2218" gorn="0.3.0.0.6" stroke-width="0" fill="#333333" fill-opacity="1" id="rect326" height="14.9865" x="30.8892"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="21.710094"  width="9.7212572" gorn="0.3.0.0.7" stroke-width="1.2858994" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345" height="1.5" x="62.748539"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="24.588751"  width="4.8524098" gorn="0.3.0.0.8" stroke-width="0.90849912" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-4-7" height="1.5" x="67.617599"/>
+                <rect stroke="none" style="opacity:1;fill-rule:evenodd;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke" y="27.280142"  width="9.7212572" gorn="0.3.0.0.9" stroke-width="1.2858994" fill="#dcdcdc" fill-opacity="1" stroke-opacity="1" id="rect1345-4" height="1.5" x="62.748749"/>
+                <rect stroke="none" y="21.059999"  width="5.2491999" gorn="0.3.0.0.10" stroke-width="0" fill="#333333" fill-opacity="1" id="rect328" height="8.4960003" x="64.950798"/>
+                <circle connectorname="IP+" stroke="#9a916c" cx="10.8" r="7.362"  gorn="0.3.0.0.11" stroke-width="2.8440001" fill="none" cy="10.8" id="connector14pin"/>
+                <circle connectorname="IP-" stroke="#9a916c" cx="10.8" r="7.362"  gorn="0.3.0.0.12" stroke-width="2.8440001" fill="none" cy="32.400002" id="connector15pin"/>
+                <circle connectorname="IP-" stroke="#9a916c" cx="21.6" r="2.052"  gorn="0.3.0.0.13" stroke-width="1.22399998" fill="none" cy="25.200001" id="connector16pin"/>
+                <circle connectorname="IP+" stroke="#9a916c" cx="21.6" r="2.052"  gorn="0.3.0.0.14" stroke-width="1.22399998" fill="none" cy="18" id="connector17pin"/>
+                <circle connectorname="5V" stroke="#9a916c" cx="86.400002" r="2.052"  gorn="0.3.0.0.15" stroke-width="1.22399998" fill="none" cy="10.8" id="connector20pin"/>
+                <circle connectorname="VO" stroke="#9a916c" cx="86.400002" r="2.052"  gorn="0.3.0.0.16" stroke-width="1.22399998" fill="none" cy="18" id="connector21pin"/>
+                <circle connectorname="GND" stroke="#9a916c" cx="86.400002" r="2.052"  gorn="0.3.0.0.17" stroke-width="1.22399998" fill="none" cy="25.200001" id="connector22pin"/>
+            </g>
+            <g  transform="translate(64.6925,37.1699)">
+                <g >
+                    <g  gorn="0.3.0.1.0.0" id="g347">
+                        <g  gorn="0.3.0.1.0.0.0" id="0603-cap">
+                            <g  transform="rotate(180,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.1.0.0.0.0.0.0" id="g344">
+                                        <g  gorn="0.3.0.1.0.0.0.0.0.0.0" id="g342">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.1.0.0.0.0.0.0.0.0" id="path338" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#6e554b"  width="2.2679999" gorn="0.3.0.1.0.0.0.0.0.0.0.1" id="rect340" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(64.6925,15.288)">
+                <g >
+                    <g  gorn="0.3.0.2.0.0" id="g355">
+                        <g  gorn="0.3.0.2.0.0.0" id="g353">
+                            <path style="fill:#dcdcdc"  gorn="0.3.0.2.0.0.0.0" id="path349" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                            <rect y="0" style="fill:#6e554b"  width="2.2679999" gorn="0.3.0.2.0.0.0.1" id="rect351" height="2.2679999" x="1.1339999"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(45.2045,6.426)">
+                <g >
+                    <g  gorn="0.3.0.3.0.0" id="g367">
+                        <g  gorn="0.3.0.3.0.0.0" id="g365">
+                            <g  transform="rotate(90,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.3.0.0.0.0.0.0" id="g363">
+                                        <g  gorn="0.3.0.3.0.0.0.0.0.0.0" id="g361">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.3.0.0.0.0.0.0.0.0" id="path357" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#6e554b"  width="2.2679999" gorn="0.3.0.3.0.0.0.0.0.0.0.1" id="rect359" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(41.6105,6.426)">
+                <g >
+                    <g  gorn="0.3.0.4.0.0" id="g379">
+                        <g  gorn="0.3.0.4.0.0.0" id="g377">
+                            <g  transform="rotate(-90,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.4.0.0.0.0.0.0" id="g375">
+                                        <g  gorn="0.3.0.4.0.0.0.0.0.0.0" id="g373">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.4.0.0.0.0.0.0.0.0" id="path369" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#6e554b"  width="2.2679999" gorn="0.3.0.4.0.0.0.0.0.0.0.1" id="rect371" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(52.8125,15.4764)">
+                <g >
+                    <g  gorn="0.3.0.5.0.0" id="g387">
+                        <g  gorn="0.3.0.5.0.0.0" id="g385">
+                            <path style="fill:#dcdcdc"  gorn="0.3.0.5.0.0.0.0" id="path381" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                            <rect y="0" style="fill:#6e554b"  width="2.2679999" gorn="0.3.0.5.0.0.0.1" id="rect383" height="2.2679999" x="1.1339999"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(64.6925,32.346)">
+                <g >
+                    <g  gorn="0.3.0.6.0.0" id="g437">
+                        <g  gorn="0.3.0.6.0.0.0" id="0603-res">
+                            <g  transform="rotate(180,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.6.0.0.0.0.0.0" id="g434">
+                                        <g  gorn="0.3.0.6.0.0.0.0.0.0.0" id="g432">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.6.0.0.0.0.0.0.0.0" id="path428" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#333333"  width="2.2679999" gorn="0.3.0.6.0.0.0.0.0.0.0.1" id="rect430" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(49.9745,22.806)">
+                <g >
+                    <g  gorn="0.3.0.7.0.0" id="g449">
+                        <g  gorn="0.3.0.7.0.0.0" id="g447">
+                            <g  transform="rotate(90,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.7.0.0.0.0.0.0" id="g445">
+                                        <g  gorn="0.3.0.7.0.0.0.0.0.0.0" id="g443">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.7.0.0.0.0.0.0.0.0" id="path439" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#333333"  width="2.2679999" gorn="0.3.0.7.0.0.0.0.0.0.0.1" id="rect441" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(54.6125,22.806)">
+                <g >
+                    <g  gorn="0.3.0.8.0.0" id="g461">
+                        <g  gorn="0.3.0.8.0.0.0" id="g459">
+                            <g  transform="rotate(90,2.2675,1.134)">
+                                <g >
+                                    <g  gorn="0.3.0.8.0.0.0.0.0.0" id="g457">
+                                        <g  gorn="0.3.0.8.0.0.0.0.0.0.0" id="g455">
+                                            <path style="fill:#dcdcdc"  gorn="0.3.0.8.0.0.0.0.0.0.0.0" id="path451" d="M 4.245,2.268 H 0.29 C 0.13,2.268 0,2.138 0,1.977 V 0.29 C 0,0.13 0.13,0 0.29,0 h 3.955 c 0.16,0 0.29,0.13 0.29,0.29 v 1.687 c 0,0.161 -0.13,0.291 -0.29,0.291 z"/>
+                                            <rect y="0" style="fill:#333333"  width="2.2679999" gorn="0.3.0.8.0.0.0.0.0.0.0.1" id="rect453" height="2.2679999" x="1.1339999"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

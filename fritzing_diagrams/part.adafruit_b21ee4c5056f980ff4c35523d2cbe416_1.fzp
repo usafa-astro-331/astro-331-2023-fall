@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.5.2b.02.18.4756" moduleId="adafruit_b21ee4c5056f980ff4c35523d2cbe416_1" referenceFile="INA219 Rev C.fzp">
+ <version>4</version>
+ <date>Tue Aug 31 2021</date>
+ <author>kattni</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This breakout board will solve all your power-monitoring problems. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to both measure both the high side voltage and DC current draw over I2C with 1% precision.&lt;br />&lt;br />Most current-measuring devices such as our current panel meter are only good for &lt;span style=" font-style:italic;">low side&lt;/span> measuring. That means that unless you want to get a battery involved, you have to stick the measurement resistor between the target ground and true ground. This can cause problems with circuits since electronics tend to not like it when the ground references change and move with varying current draw. This chip is much smarter - it can handle high side current measuring, up to +26VDC, even though it is powered with 3 or 5V. It will also report back that high side voltage, which is great for tracking battery life or solar panels.&lt;br />&lt;br />A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor. Since the amplifier maximum input difference is ±320mV this means it can measure up to ±3.2 Amps. With the internal 12 bit ADC, the resolution at ±3.2A range is 0.8mA. With the internal gain set at the minimum of div8, the max current is ±400mA and the resolution is 0.1mA. Advanced hackers can remove the 0.1 ohm current sense resistor and replace it with their own to change the range (say a 0.01 ohm to measure up 32 Amps with a resolution of 8mA)&lt;br />&lt;br />We include a 6-pin header (so you can easily attach this sensor to a breadboard) as well as a 3.5mm terminal plug so you can easily attach and detach your load.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Usage is simple. Power the sensor itself with 3 to 5VDC and connect the two I2C pins up to your microcontroller. Then connect your target power supply to VIN+ and the load to ground to VIN-. &lt;a href="https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout">&lt;span style=" text-decoration: underline; color:#0068da;">We have a detailed tutorial that will do all the gain, range and math for you - just plug and go with Arduino or CircuitPython!&lt;/span>&lt;/a>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">As if that weren't enough, we've now also added&lt;a href="https://www.sparkfun.com/qwiic">&lt;span style=" text-decoration: underline; color:#0068da;"> SparkFun qwiic&lt;/span>&lt;/a> compatible &lt;a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">&lt;span style=" font-weight:600; text-decoration: underline; color:#0068da;">STEMMA QT&lt;/span>&lt;/a> connectors for the I2C bus &lt;span style=" font-weight:600;">so you don't even need to solder the I2C and power lines.&lt;/span> Just wire up to your favorite micro using a &lt;a href="https://www.adafruit.com/?q=stemma%20qt%20cable">&lt;span style=" text-decoration: underline; color:#0068da;">STEMMA QT adapter cable.&lt;/span>&lt;/a> The Stemma QT connectors also mean the INA219 can be used with our &lt;a href="https://www.adafruit.com/?q=JST%20SH%204">&lt;span style=" text-decoration: underline; color:#0068da;">various associated accessories.&lt;/span>&lt;/a> &lt;a href="https://www.adafruit.com/?q=stemma+qt+cable&amp;amp;sort=BestMatch">&lt;span style=" text-decoration: underline; color:#0068da;">QT Cable is not included, but we have a variety in the shop&lt;/span>&lt;/a>.&lt;/p>&lt;/body>&lt;/html></description>
+ <title>Adafruit INA219</title>
+ <tags/>
+ <properties>
+  <property name="variant">variant 1</property>
+  <property name="family">Adafruit INA219</property>
+  <property name="part number">Adafruit #904</property>
+  <property name="layer"></property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/adafruit_b21ee4c5056f980ff4c35523d2cbe416_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/adafruit_b21ee4c5056f980ff4c35523d2cbe416_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/adafruit_b21ee4c5056f980ff4c35523d2cbe416_1_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/adafruit_b21ee4c5056f980ff4c35523d2cbe416_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector type="male" name="VIN-" id="connector25">
+   <description>VIN-</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector25pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector25pin" terminalId="connector25terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector25pad" layer="copper0"/>
+     <p svgId="connector25pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VIN+" id="connector26">
+   <description>VIN+</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector26pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector26pin" terminalId="connector26terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector26pad" layer="copper0"/>
+     <p svgId="connector26pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VCC" id="connector27">
+   <description>VCC</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector27pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector27pin" terminalId="connector27terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector27pad" layer="copper0"/>
+     <p svgId="connector27pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VCC" id="connector10">
+   <description>VCC</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector10pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector10pin" terminalId="connector10terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector10pad" layer="copper0"/>
+     <p svgId="connector10pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VCC" id="connector16">
+   <description>VCC</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector16pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector16pin" terminalId="connector16terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector16pad" layer="copper0"/>
+     <p svgId="connector16pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VIN-" id="connector31">
+   <description>VIN-</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector31pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector31pin" terminalId="connector31terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector31pad" layer="copper0"/>
+     <p svgId="connector31pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="VIN+" id="connector32">
+   <description>VIN+</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector32pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector32pin" terminalId="connector32terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector32pad" layer="copper0"/>
+     <p svgId="connector32pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SCL" id="connector29">
+   <description>SCL</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector29pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector29pin" terminalId="connector29terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector29pad" layer="copper0"/>
+     <p svgId="connector29pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SCL" id="connector12">
+   <description>SCL</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector12pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector12pin" terminalId="connector12terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector12pad" layer="copper0"/>
+     <p svgId="connector12pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SCL" id="connector18">
+   <description>SCL</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector18pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector18pin" terminalId="connector18terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector18pad" layer="copper0"/>
+     <p svgId="connector18pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SDA" id="connector30">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector30pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector30pin" terminalId="connector30terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector30pad" layer="copper0"/>
+     <p svgId="connector30pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SDA" id="connector11">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector11pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector11pin" terminalId="connector11terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector11pad" layer="copper0"/>
+     <p svgId="connector11pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="SDA" id="connector17">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector17pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector17pin" terminalId="connector17terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector17pad" layer="copper0"/>
+     <p svgId="connector17pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="GND" id="connector28">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector28pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector28pin" terminalId="connector28terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector28pad" layer="copper0"/>
+     <p svgId="connector28pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="GND" id="connector9">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector9pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector9pin" terminalId="connector9terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector9pad" layer="copper0"/>
+     <p svgId="connector9pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" name="GND" id="connector15">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector15pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector15pin" terminalId="connector15terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector15pad" layer="copper0"/>
+     <p svgId="connector15pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses>
+  <bus id="gnd">
+   <nodeMember connectorId="connector28"/>
+   <nodeMember connectorId="connector9"/>
+   <nodeMember connectorId="connector15"/>
+  </bus>
+  <bus id="vcc">
+   <nodeMember connectorId="connector27"/>
+   <nodeMember connectorId="connector10"/>
+   <nodeMember connectorId="connector16"/>
+  </bus>
+  <bus id="sda">
+   <nodeMember connectorId="connector30"/>
+   <nodeMember connectorId="connector11"/>
+   <nodeMember connectorId="connector17"/>
+  </bus>
+  <bus id="scl">
+   <nodeMember connectorId="connector29"/>
+   <nodeMember connectorId="connector12"/>
+   <nodeMember connectorId="connector18"/>
+  </bus>
+  <bus id="vin-">
+   <nodeMember connectorId="connector25"/>
+   <nodeMember connectorId="connector31"/>
+  </bus>
+  <bus id="vin+">
+   <nodeMember connectorId="connector26"/>
+   <nodeMember connectorId="connector32"/>
+  </bus>
+ </buses>
+ <url>https://www.adafruit.com/product/904</url>
+</module>

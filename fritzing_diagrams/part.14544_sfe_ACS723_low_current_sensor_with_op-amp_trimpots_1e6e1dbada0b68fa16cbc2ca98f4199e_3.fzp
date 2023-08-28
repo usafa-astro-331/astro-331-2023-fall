@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.5.2b.02.18.4756" moduleId="14544_sfe_ACS723_low_current_sensor_with_op-amp_trimpots_1e6e1dbada0b68fa16cbc2ca98f4199e_3" referenceFile="ACS723_Low_Current_Sensor.fzp">
+ <version>4</version>
+ <date>Mon Aug 26 2019</date>
+ <author>Ho Yun "Bobby" Chan</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The low current version of the SparkFun Current Sensor Breakout is a high accuracy board that utilizes the ACS723 for low to moderate AC and DC current sensing applications. The ACS723 sensor uses a Hall effect sensor to output a voltage relative to the current flowing through the IP+ and IP- pins on the board. The advantage of using a Hall effect sensor, specifically, is that the circuit being sensed and the circuit reading the sensor are electrically isolated meaning that, although your Arduino is running on 5V, the sensed circuit can be operating at higher DC or AC voltages!&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This low current sensor breakout is capable of sensing very small currents down to around 10mA and large currents up to 5A! However, since the output is analog, your usable readings will be limited by noise and the resolution of the ADC reading the output. Additionally, this breakout has full electrical isolation of measured and sensed circuits and (thanks to an on-board amp) can adjust its sensitivity. Although the analog output is adjustable to 80kHz, the bandwidth on the ACS723 Sensor Breakout width filter has been set to 20kHz to reduce noise when using at high gains. The full 80KHz bandwidth that the sensor is capable of can be recovered by closing the JP1 (Bandwidth Select) jumper on the back of the board.&lt;/p>&lt;/body>&lt;/html></description>
+ <title>SparkFun ACS723 Low Current Sensor</title>
+ <tags/>
+ <properties>
+  <property name="layer"></property>
+  <property name="variant">variant 1</property>
+  <property name="part number">14544</property>
+  <property name="family">Sensors</property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/14544_sfe_ACS723_low_current_sensor_with_op-amp_trimpots_1e6e1dbada0b68fa16cbc2ca98f4199e_5_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/14544_sfe_ACS723_low_current_sensor_with_op-amp_trimpots_1e6e1dbada0b68fa16cbc2ca98f4199e_5_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/14544_sfe_ACS723_low_current_sensor_with_op-amp_trimpots_1e6e1dbada0b68fa16cbc2ca98f4199e_5_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/14544_sfe_ACS723_low_current_sensor_with_op-amp_trimpots_1e6e1dbada0b68fa16cbc2ca98f4199e_5_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector type="female" id="connector14" name="IP+">
+   <description>IP+</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector14pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector14pin" terminalId="connector14terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector14pad" layer="copper0"/>
+     <p svgId="connector14pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector15" name="IP-">
+   <description>IP-</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector15pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector15pin" terminalId="connector15terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector15pad" layer="copper0"/>
+     <p svgId="connector15pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector16" name="IP-">
+   <description>IP-</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector16pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector16pin" terminalId="connector16terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector16pad" layer="copper0"/>
+     <p svgId="connector16pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector17" name="IP+">
+   <description>IP+</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector17pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector17pin" terminalId="connector17terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector17pad" layer="copper0"/>
+     <p svgId="connector17pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector20" name="5V">
+   <description>5V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector20pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector20pin" terminalId="connector20terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector20pad" layer="copper0"/>
+     <p svgId="connector20pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector21" name="VO">
+   <description>VO</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector21pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector21pin" terminalId="connector21terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector21pad" layer="copper0"/>
+     <p svgId="connector21pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector22" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector22pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector22pin" terminalId="connector22terminal" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector22pad" layer="copper0"/>
+     <p svgId="connector22pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses>
+  <bus id="ip-">
+   <nodeMember connectorId="connector15"/>
+   <nodeMember connectorId="connector16"/>
+  </bus>
+  <bus id="ip+">
+   <nodeMember connectorId="connector14"/>
+   <nodeMember connectorId="connector17"/>
+  </bus>
+ </buses>
+ <url>https://www.sparkfun.com/products/14544</url>
+ <label>SparkFun ACS723 Low Current Sensor</label>
+</module>

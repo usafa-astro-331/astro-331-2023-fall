@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module referenceFile="TTL_Serial_JPEG_Camera__47773d85ab728344f42cb78920c9b815.fzp" moduleId="arducam_001d4fcb1cd82069ed2eb86b0438daeb_1" fritzingVersion="0.7.5b.07.02.6130">
+ <author>Jordan Firth</author>
+ <title>Arducam</title>
+ <label>CAMERA</label>
+ <date>Fri Dec 16 2022</date>
+ <url/>
+ <tags>
+  <tag>camera</tag>
+  <tag>sensor</tag>
+  <tag>adafruit</tag>
+  <tag>ttl</tag>
+  <tag>jpeg</tag>
+  <tag>ntsc</tag>
+ </tags>
+ <properties>
+  <property name="layer"></property>
+  <property name="mn"></property>
+  <property name="variant">variant 1</property>
+  <property name="mpn"></property>
+  <property name="part number"></property>
+  <property name="family">arducam</property>
+ </properties>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/arducam_001d4fcb1cd82069ed2eb86b0438daeb_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView fliphorizontal="true" flipvertical="true" >
+   <layers image="breadboard/arducam_001d4fcb1cd82069ed2eb86b0438daeb_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/arducam_001d4fcb1cd82069ed2eb86b0438daeb_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/arducam_001d4fcb1cd82069ed2eb86b0438daeb_1_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector name="MISO" id="connector3" type="male">
+   <description/>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector3pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector3pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector3pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SCK" id="connector4" type="male">
+   <description/>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector4pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector4pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector4pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="GND" id="connector5" type="male">
+   <description>ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector5pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector5pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector5pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="VCC" id="connector6" type="male">
+   <description>5V supply voltage</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector6pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector6pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector6pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="CS" id="connector1" type="male">
+   <description/>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector1pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="MOSI" id="connector2" type="male">
+   <description/>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector2pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector2pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector2pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SDA" id="connector7" type="male">
+   <description>I2C</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector7pin" terminalId="connector7terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector7pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector7pin" terminalId="connector7terminal"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SCL" id="connector8" type="male">
+   <description>I2C</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector8pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector8pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector8pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>

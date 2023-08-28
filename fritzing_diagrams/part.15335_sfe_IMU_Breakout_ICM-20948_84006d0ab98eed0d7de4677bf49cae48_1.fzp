@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.5.2b.02.18.4756" moduleId="15335_sfe_IMU_Breakout_ICM-20948_84006d0ab98eed0d7de4677bf49cae48_1" referenceFile="SparkFun_IMU_Breakout_ICM-20948.fzp">
+ <version>4</version>
+ <date>Mon Jul 1 2019</date>
+ <author>SparkFun</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The SparkFun 9DoF IMU Breakout incorporates all the amazing features of Invensense's ICM-20948 into a Qwiic-enabled breakout board complete with a logic shifter and broken out GPIO pins for all your motion sensing needs. The ICM-20948 itself is an extremely low powered, I&lt;span style=" vertical-align:super;">2&lt;/span>C and SPI enabled 9-axis motion tracking device that is ideally suited for smartphones, tablets, wearable sensors, and IoT applications. Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1&amp;quot;-spaced pins in case you prefer to use a breadboard. &lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In addition to the 3-Axis Gyroscope with four selectable ranges, 3-Axis Accelerometer, again with four selectable ranges, and 3-axis magnetometer with an FSR to ±4900µT, the ICM-20948 also includes a Digital Motion Processor that offloads the computation of motion sensing algorithms from the detectors, allowing optimal performance of the sensors. We've also broken out all the ICM-20948 pin functionality to GPIO and labeled them I&lt;span style=" vertical-align:super;">2&lt;/span>C on the front, SPI on the back for ease of identification.&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style="" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a name="documents-tab">&lt;/a>&lt;a href="https://cdn.sparkfun.com/assets/c/7/8/f/8/15335_9DoF_Schematic.pdf">&lt;span style=" text-decoration: underline; color:#0000ff;">S&lt;/span>&lt;/a>&lt;span style=" text-decoration: underline; color:#0000ff;">chematic&lt;/span>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://cdn.sparkfun.com/assets/e/3/8/8/4/15335_9DoF_IMU_EagleFiles.zip">&lt;span style=" text-decoration: underline; color:#0000ff;">Eagle Files&lt;/span>&lt;/a>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://learn.sparkfun.com/tutorials/sparkfun-9dof-imu-icm-20948-breakout-hookup-guide">&lt;span style=" text-decoration: underline; color:#0000ff;">Hookup Guide&lt;/span>&lt;/a>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://cdn.sparkfun.com/assets/7/f/e/c/d/DS-000189-ICM-20948-v1.3.pdf">&lt;span style=" text-decoration: underline; color:#0000ff;">Datasheet&lt;/span>&lt;/a> (ICM-20948)&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary">&lt;span style=" text-decoration: underline; color:#0000ff;">Arduino Library&lt;/span>&lt;/a>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://github.com/sparkfun/SparkFun_Qwiic_9DoF_IMU_Breakout">&lt;span style=" text-decoration: underline; color:#0000ff;">GitHub Hardware Repo&lt;/span>&lt;/a> &lt;/li>&lt;/ul>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></description>
+ <title>SparkFun IMU Breakout ICM-20948</title>
+ <tags>
+  <tag>Qwiic</tag>
+  <tag>9DoF </tag>
+  <tag>9 Degrees of Freedom</tag>
+  <tag>Accelerometer </tag>
+  <tag>ICM-20948</tag>
+  <tag>I2C </tag>
+  <tag>IMU </tag>
+  <tag>Magnetometer</tag>
+  <tag>Breakout</tag>
+  <tag>Gyroscope </tag>
+  <tag>Sensor</tag>
+  <tag>SparkFun Original </tag>
+ </tags>
+ <properties>
+  <property name="family">84006d0ab98eed0d7de4677bf49cae48</property>
+  <property name="variant">variant 1</property>
+  <property name="part number">15335</property>
+  <property name="layer"></property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/15335_sfe_IMU_Breakout_ICM-20948_84006d0ab98eed0d7de4677bf49cae48_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/15335_sfe_IMU_Breakout_ICM-20948_84006d0ab98eed0d7de4677bf49cae48_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/15335_sfe_IMU_Breakout_ICM-20948_84006d0ab98eed0d7de4677bf49cae48_1_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/15335_sfe_IMU_Breakout_ICM-20948_84006d0ab98eed0d7de4677bf49cae48_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector type="female" id="connector26" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector26pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector26terminal" svgId="connector26pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector26pad" layer="copper0"/>
+     <p svgId="connector26pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector27" name="VIN">
+   <description>VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector27pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector27terminal" svgId="connector27pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector27pad" layer="copper0"/>
+     <p svgId="connector27pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector28" name="SDA/SDI_VIN">
+   <description>SDA/SDI_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector28pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector28terminal" svgId="connector28pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector28pad" layer="copper0"/>
+     <p svgId="connector28pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector29" name="SCL/SCLK_VIN">
+   <description>SCL/SCLK_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector29pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector29terminal" svgId="connector29pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector29pad" layer="copper0"/>
+     <p svgId="connector29pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector30" name="AD0/SDO_VIN">
+   <description>AD0/SDO_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector30pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector30terminal" svgId="connector30pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector30pad" layer="copper0"/>
+     <p svgId="connector30pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector31" name="!CS!_VIN">
+   <description>!CS!_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector31pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector31terminal" svgId="connector31pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector31pad" layer="copper0"/>
+     <p svgId="connector31pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector32" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector32pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector32terminal" svgId="connector32pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector32pad" layer="copper0"/>
+     <p svgId="connector32pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector33" name="INT_VIN">
+   <description>INT_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector33pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector33terminal" svgId="connector33pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector33pad" layer="copper0"/>
+     <p svgId="connector33pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector34" name="FSYNC_VIN">
+   <description>FSYNC_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector34pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector34terminal" svgId="connector34pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector34pad" layer="copper0"/>
+     <p svgId="connector34pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector35" name="AUX_DA_VIN">
+   <description>AUX_DA_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector35pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector35terminal" svgId="connector35pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector35pad" layer="copper0"/>
+     <p svgId="connector35pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector36" name="AUX_CL_VIN">
+   <description>AUX_CL_VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector36pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector36terminal" svgId="connector36pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector36pad" layer="copper0"/>
+     <p svgId="connector36pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" id="connector37" name="VIN">
+   <description>VIN</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector37pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector37terminal" svgId="connector37pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector37pad" layer="copper0"/>
+     <p svgId="connector37pad" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses>
+  <bus id="gnd">
+   <nodeMember connectorId="connector26"/>
+   <nodeMember connectorId="connector32"/>
+  </bus>
+  <bus id="vin">
+   <nodeMember connectorId="connector27"/>
+   <nodeMember connectorId="connector37"/>
+  </bus>
+ </buses>
+ <label>SparkFun IMU Breakout ICM-20948</label>
+ <url>https://www.sparkfun.com/products/15335</url>
+</module>
