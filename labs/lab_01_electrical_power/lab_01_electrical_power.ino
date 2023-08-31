@@ -2,7 +2,7 @@
 // initialize the library by associating any needed LCD interface pin
 // with the arduino pin number it is connected to
 
-#include "variables.h"
+#include "LCD_pins.h"
 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
@@ -53,8 +53,8 @@ void setup() {
                 dataFile.println("time (ms), current (mA), voltage (V)");
                 dataFile.close();
               }
-              // if the file isn't open, pop up an error:
-              else { Serial.println("error opening datalog.txt");  }
+              // // if the file isn't open, pop up an error:
+              // else { Serial.println("error opening datalog.txt");  }
 
 } // end function setup()
 
@@ -119,18 +119,20 @@ if (averaging_index >= num_samples){
     lcd.setCursor(6,1);
     lcd.print("V");
 
-    File dataFile = SD.open("iv_curve.csv", FILE_WRITE);
-              // if the file is available, write to it:
-              if (dataFile) {
-                dataFile.println(write_line);
-                dataFile.close();
-                // print to the serial port too:
-                Serial.println(write_line);
-              }
-              // if the file isn't open, pop up an error:
-              else {
-                Serial.println("error opening datalog.txt");
-              } // end if dataFile
+    // File dataFile = SD.open("iv_curve.csv", FILE_WRITE);
+    //           // if the file is available, write to it:
+    //           if (dataFile) {
+    //             dataFile.println(write_line);
+    //             dataFile.close();
+    //             // print to the serial port too:
+                
+    //           }
+    //           // if the file isn't open, pop up an error:
+    //           else {
+    //             Serial.println("error opening datalog.txt");
+    //           } // end if dataFile
+
+Serial.println(write_line);
 
     due += interval; 
     
