@@ -163,7 +163,7 @@ Select resistors for R1 and R2. Ensure your resistors won't smoke or catch fire.
 
 
 
-![breadboard](../../fritzing_diagrams/electrical_bb.svg)
+![breadboard](../../fritzing_diagrams/metrology.svg)
 
 Begin building FlatSAT. 
 

@@ -1,2 +1,5 @@
 *.bkp
 *.mkv
+/lessons/KULR battery.pptx
+/fritzing_diagrams/convert_pdf_to_svg.bat
+/fritzing_diagrams/*.pdf

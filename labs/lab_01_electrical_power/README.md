@@ -38,7 +38,7 @@ In your post-lab analysis, you will compare your prelab predictions to the resul
 
 
 
-![wiring diagram](../sources/fritzing/331X.svg)
+![wiring diagram](../../fritzing_diagrams/electrical_bb.svg)
 
 
 
@@ -56,23 +56,23 @@ The Arduino MKR Zero has a microSD card slot. You will use this card to store da
 
 Record which solar panel you are using. 
 
-Connect the four cells of the array in series. You will complete the data collection steps, and then repeat them with the cells connected in parallel. 
+Connect the four cells of the array in parallel. You will complete the data collection steps, and then repeat them with the cells connected in series.
 
 Connect the solar array's output to the breadboard's bottom power rail. 
 
 ## upload FlatSAT code and test setup
 
-Open `lab 01 electrical power.ino` in the Arduino IDE. 
+Open `lab_01_electrical_power.ino` in the Arduino IDE. 
 
 Connect Arduino to computer via USB. 
 
 Select the correct board (Arduino MKRZERO) and port. 
 
-Expose the solar panel to the halogen light. 
-
 Upload your code. 
 
 Open serial monitor (tools -> serial monitor).
+
+Expose the solar panel to the halogen light. 
 
 Slowly turn the potentiometer and watch the current and voltage change on the LCD. (Deselect ‘value 1’, which is time.)
 
@@ -90,16 +90,17 @@ Take FlatSAT and the luxmeter outside and find a test site in direct sunlight.
 
 Point the luxmeter toward the sun and record the sun's power in lux. You will have to adjust the range to its maximum setting. The measured value may jump around, try to take an average value. Record the average for later use calculating efficiency. 
 
-Point FlatSAT at the sun and power it on. *Very* slowly (slower than you’re thinking), turn the potentiometer from one end to the other. FlatSAT will record current and voltage at 500 ms intervals. You will record periodic current and voltage measurements from the LCD display as a backup in case the stored data gets corrupted or lost. 
+Point FlatSAT at the sun and power it on. *Very* slowly (slower than you’re thinking), turn the potentiometer from one end to the other. FlatSAT will record current and voltage at 500 ms intervals. Record periodic current and voltage measurements from the LCD display as a backup in case the stored data gets corrupted or lost. 
 
 Remove the potentiometer to record a measurement of $V_{oc}$. Short the potentiometer pins with a wire to record a measurement of $I_{sc}$. 
 
-Disconnect power, rewire the solar array in parallel, and repeat these steps to collect the parallel I-V data. 
+Disconnect power, rewire the solar array in series, and repeat these steps to collect the series I-V data. 
 
 ## data collection and analysis
 
+- record your solar panel number
+- record your illuminance measurement
 - transfer `iv_curve.csv` to your computer for later analysis
-- perform data analysis from `lab 1 analysis.pdf`
 
 ## cleanup
 
