@@ -8,7 +8,10 @@ $$
 Res = \frac{2.44 \lambda h}{D}
 $$
 
-<img src="sources/image-20230901173007093.png" alt="image-20230901173007093" style="zoom:50%;" />
+| <img src="sources/image-20230901173007093.png" alt="image-20230901173007093" style="zoom:50%;" /> | <img src="sources/visible_spectrum.svg" alt="XOR" style="zoom:50%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+
 
 ## admin
 
