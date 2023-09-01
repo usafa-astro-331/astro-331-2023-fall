@@ -17,11 +17,16 @@ const int chipSelect = SDCARD_SS_PIN;
 
 
 void setup() {
-  lcd.begin(16,2); // size of parallel lcd is 16x2 characters
+  delay(500);
     
   Serial.begin(9600);
   // while(!Serial);
   Serial.println("test");
+
+  lcd.begin(16,2); // size of parallel lcd is 16x2 characters
+  
+
+
   // Initialize the INA219.
   // By default the initialization will use the largest range (32V, 2A).  However
   // you can call a setCalibration function to change this range (see comments).
