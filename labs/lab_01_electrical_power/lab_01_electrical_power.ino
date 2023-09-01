@@ -119,18 +119,18 @@ if (averaging_index >= num_samples){
     lcd.setCursor(6,1);
     lcd.print("V");
 
-    // File dataFile = SD.open("iv_curve.csv", FILE_WRITE);
-    //           // if the file is available, write to it:
-    //           if (dataFile) {
-    //             dataFile.println(write_line);
-    //             dataFile.close();
-    //             // print to the serial port too:
+    File dataFile = SD.open("iv_curve.csv", FILE_WRITE);
+              // if the file is available, write to it:
+              if (dataFile) {
+                dataFile.println(write_line);
+                dataFile.close();
+                // print to the serial port too:
                 
-    //           }
-    //           // if the file isn't open, pop up an error:
-    //           else {
-    //             Serial.println("error opening datalog.txt");
-    //           } // end if dataFile
+              }
+              // if the file isn't open, pop up an error:
+              else {
+                Serial.println("error opening datalog.txt");
+              } // end if dataFile
 
 Serial.println(write_line);
 
