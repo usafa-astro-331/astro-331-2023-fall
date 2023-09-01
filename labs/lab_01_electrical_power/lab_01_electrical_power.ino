@@ -53,8 +53,8 @@ void setup() {
                 dataFile.println("time (ms), current (mA), voltage (V)");
                 dataFile.close();
               }
-              // // if the file isn't open, pop up an error:
-              // else { Serial.println("error opening datalog.txt");  }
+              // if the file isn't open, pop up an error:
+              else { Serial.println("error opening datalog.txt");  }
 
 } // end function setup()
 
