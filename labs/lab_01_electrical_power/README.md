@@ -30,17 +30,35 @@ In your post-lab analysis, you will compare your prelab predictions to the resul
 ## software
 
 - Arduino IDE
+- Arduino SAMD drivers (already installed)
+- Arduino libraries (`install_libraries.bat`)
+  - liquidcrystal
+  - adafruit ina219
+
 - `lab_01_electrical_power.ino`
 
 
 
 ## setup
 
+Connect components
 
+- 16 x 2 character LCD
+  - power and ground as shown
+  - pin 3 to ground through a 1k$\ohm$ resistor
+  - 6x data lines as listed in `LCD_pins.h`
+    - appears as tab in arduino IDE
+- INA219 current sensor breakout board
+  - solar panel rails as shown
+  - QWIIC cable as listed in `INA219_pins.h`
+- Arduino MKR Zero
+  - power from computer via USB
+  - provides 3.3V on Vcc pin
+  - provides 5V on 5V pin
+  - connect ground
+  - will need microSD card during lab operation
 
 ![wiring diagram](../../fritzing_diagrams/electrical_bb.svg)
-
-
 
 ### prepare microSD card
 
@@ -58,7 +76,7 @@ Record which solar panel you are using.
 
 Connect the four cells of the array in parallel. You will complete the data collection steps, and then repeat them with the cells connected in series.
 
-Connect the solar array's output to the breadboard's bottom power rail. 
+Connect the solar array's output to the breadboard's bottom power rail. The array’s positive output must connect to the red rail. 
 
 ## upload FlatSAT code and test setup
 
@@ -74,7 +92,7 @@ Open serial monitor (tools -> serial monitor).
 
 Expose the solar panel to the halogen light. 
 
-Slowly turn the potentiometer and watch the current and voltage change on the LCD. (Deselect ‘value 1’, which is time.)
+Slowly turn the potentiometer and watch the current and voltage change on the LCD. 
 
 Disconnect the Arduino and turn off the halogen light. 
 

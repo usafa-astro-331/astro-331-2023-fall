@@ -17,7 +17,7 @@ const int chipSelect = SDCARD_SS_PIN;
 
 
 void setup() {
-  delay(500);
+  delay(1000);
     
   Serial.begin(9600);
   // while(!Serial);
@@ -31,7 +31,7 @@ void setup() {
   // By default the initialization will use the largest range (32V, 2A).  However
   // you can call a setCalibration function to change this range (see comments).
   if (! ina219.begin()) {
-    Serial.println("Failed to find INA219 chip");
+    Serial.println("Failed to find INA219");
     while (1) { delay(10); }
   }
   // To use a slightly lower 32V, 1A range (higher precision on amps):
@@ -39,14 +39,15 @@ void setup() {
   // Or to use a lower 16V, 400mA range (higher precision on volts and amps):
   //ina219.setCalibration_16V_400mA();
 
-  Serial.println("           INA219:  ");
-  Serial.println("time (ms), curr (mA)");
-
+  Serial.println("time (ms), current (mA), voltage (V)");
 
     Serial.print("Initializing SD card...");
   // see if the card is present and can be initialized:
   if (!SD.begin(chipSelect)) {
     Serial.println("Card failed, or not present");
+    lcd.setCursor(0,0);
+    lcd.print("card failed"); 
+    
     // don't do anything more:
     while (1);
   }
@@ -116,7 +117,7 @@ if (averaging_index >= num_samples){
     write_line += voltage;
     
     lcd.setCursor(0,0);
-    lcd.print(current,1); 
+    lcd.print(current); 
     lcd.setCursor(5,0);
     lcd.print("mA");
     lcd.setCursor(0,1);
@@ -135,6 +136,8 @@ if (averaging_index >= num_samples){
               // if the file isn't open, pop up an error:
               else {
                 Serial.println("error opening datalog.txt");
+                lcd.setCursor(0,0);
+                lcd.print("card failed"); 
               } // end if dataFile
 
 Serial.println(write_line);
