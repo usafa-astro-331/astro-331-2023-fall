@@ -44,26 +44,9 @@ Connect components
 
 ArduCAM-M-2MP communicates with Arduino using both I2C and SPI. The Arduino sketch handles these protocols with the `Wire` and `SPI` libraries. I2C: sensor configuration. SPI: camera commands and data stream (images). 
 
-Note the orientation of the connections in the diagram: the camera board should be vertical with the sensor looking over the LCD. 
+Note the orientation of the connections in the diagram: the camera board should be vertical with the sensor looking away from the LCD (towards the bottom of the diagram image. 
 
-Connect power
 
-- VCC (5 V)
-- ground (any ground is fine)
-
-Connect I2C comm lines--these are already in place from lab 1
-
-- SDA
-- SCL
-
-Connect SPI comm lines
-
-- SCK (clock)
-- CIPO (controller in/peripheral out)*
-- COPI (controller out/peripheral in)*
-- CS (chip select)
-
-**\*Note**: some components and documentation use master/slave terminology (MISO/MOSI), and some use controller/peripheral (CIPO/COPI). MISO = CIPO, MOSI = COPI. 
 
 ## Capture images
 
@@ -136,10 +119,8 @@ You will use your camera to record images at the same distances you predicted in
 
 - Transfer all captured images to your group's storage location (your computer or share drive)
 - Disconnect the micro-USB to USB cable from your laptop and the Arduino microcontroller
-- Remove the ESD wrist straps and replace them in the bag at your lab station.
 - Replace all items at your lab station the way you found them. 
-- Close the GUI, close the Arduino IDE, and log out of the laptop.
-- Have your instructor check off your lab station before you depart.
+- Have your instructor check your lab station before you depart.
 
 ## Data Reduction (after the lab)
 
