@@ -8,6 +8,15 @@ In your post-lab analysis, you will compare your prelab predictions to the resul
 
 
 
+## equipment
+
+- laptop
+- micro USB cable
+- halogen lamp
+- USB micro SD card reader
+- luxmeter
+  ![luxmeter](sources/luxmeter.png)
+
 ## hardware
 
 - FlatSAT
@@ -15,17 +24,6 @@ In your post-lab analysis, you will compare your prelab predictions to the resul
   - micro SD card
   - INA219 current sensor
   - solar array
-
-## equipment
-
-- laptop
-- Micro USB cable
-- halogen lamp
-- USB micro SD card reader
-- luxmeter
-![luxmeter](sources/luxmeter.png)
-
-
 
 ## software
 

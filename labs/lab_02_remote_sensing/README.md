@@ -40,7 +40,7 @@ Connect components
     - power, ground
     - 4x SPI lines
 
-
+![wiring diagram](../../fritzing_diagrams/remote_sensing_bb.svg)
 
 ArduCAM-M-2MP communicates with Arduino using both I2C and SPI. The Arduino sketch handles these protocols with the `Wire` and `SPI` libraries. I2C: sensor configuration. SPI: camera commands and data stream (images). 
 
