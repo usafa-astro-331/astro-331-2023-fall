@@ -1,44 +1,46 @@
-# Lab 2: camera payload
+# Lab 2: remote sensing
 
 In this lab you will test FlatSAT's Arducam payload to determine if FlatSAT's imaging system will meet its resolution requirement from a 500 km orbit. You will record images of a resolution chart to determine the best resolution FlatSAT can achieve at distances ranging from 0.5 m to 5 m. You will extrapolate this to a 500 km distance and compare performance to your prelab predictions.
+
+
+
+## equipment
+
+- laptop
+- micro USB cable
+- resolution charts (big and normal)
+- ruler and measuring tape
+
+## hardware
+
+* FlatSAT
+
+  * components from lab 1
+  * ArduCAM-M-2MP
 
 ## software
 
 - Arduino IDE
-- Arducam Host V2
+- Arduino SAMD drivers (already installed)
 - Arduino libraries (install by running `install_libraries.bat`)
   - ArduCAM
-- `lab_02_camera_payload.ino`
+- `lab_02_remote_sensing.ino`
 
-## hardware
+* Arducam Host V2
 
-* ESD-safe grounding straps
 
-* FlatSAT
-  
-  * INA219 current sensor
-
-* ArduCAM-M-2MP
-
-* resolution chart
-
-* metric ruler
-
-* wires
 
 ## setup
 
-Whenever you handle the Arduino or any microcontroller electronics, be sure that you have a grounding strap on, to prevent unintentional electro-static discharge (ESD). The strap should have contact with your skin and the banana plug end should plug into one of the grounding holes (indicated in red) on the front of your lab bench. There are two grounding plugs at each lab station.
+Connect components
 
-In this lab FlatSAT will draw power from its USB connection to the computer. 
+- 2MP ArduCAM
+  - as listed in `arducam_pins.h`
+    - 2x I2C lines
+    - power, ground
+    - 4x SPI lines
 
-- Connect your camera payload to FlatSAT
-  
-  **Note**: ArduCAM requires 5V supply
 
-<img src="../sources/fritzing/331X.svg" alt="solar_bb" style="zoom:200%;" />
-
-### ArduCAM
 
 ArduCAM-M-2MP communicates with Arduino using both I2C and SPI. The Arduino sketch handles these protocols with the `Wire` and `SPI` libraries. I2C: sensor configuration. SPI: camera commands and data stream (images). 
 
