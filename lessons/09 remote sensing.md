@@ -2,9 +2,9 @@
 
 ## quiz
 
-[1]: # (What is the name of the shape below? What type of resolution does it affect?)
+[1]: # (What is the name of the shape below? How is it related to resolution?)
 
-![image-20230903222330940](sources/image-20230903222330940.png)
+<img src="sources/image-20230903222330940.png" alt="image-20230903222330940" style="zoom:25%;" />
 
 [2]: # (Calculate the diffraction-limited resolution for the visible-light sensor on Planet Labs’ Dove spacecraft. Dove is a 3U Cubesat. Altitude: 475 km. List your assumptions.)
 
@@ -108,6 +108,57 @@ Analysis needed for (remote sensing cannot answer)
 - why
 
 
+
+## spectrum
+
+<img src="sources/Electromagnetic-Spectrum.svg" alt="By Original: Penubag Vector: Victor Blacus - Own work based on: Electromagnetic-Spectrum.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=22428451" style="zoom:50%; transform:rotate(90deg);"/>
+$$
+c = \lambda f = 2.99792458 \times 10^8 \ \mathrm{m/s}
+$$
+![https://en.wikipedia.org/wiki/Planck%27s_law#/media/File:Black_body.svg](sources/Black_body.svg)
+
+Wien’s law
+$$
+\lambda_{max} = \frac{2.898 \ \times 10^{-3}}{T}
+$$
+
+
+![By Robert A. Rohde - This file has been extracted from another file, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24648395](sources/Solar_spectrum_en.svg)
+
+## optics
+
+$$
+\mathrm{magnification} = \frac{f}{h} = \frac{r_d}{R}
+$$
+
+
+
+![image-20230905234050113](sources/image-20230905234050113.png)
+
+
+
+![image-20230905233740796](sources/image-20230905233740796.png)
+
+
+
+### diffraction-limited resolution
+
+| ![https://www.microscopyu.com/tutorials/imageformation-airyna](sources/image-20230905233859980.png) | ![http://www.jb.man.ac.uk/public/im/clearly.html](sources/image-20230905233916507.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+$$
+Res = \frac{2.44 \lambda h}{D}
+$$
+
+### pixel-limited resolution
+
+$$
+Res = \frac{2R}{px}
+$$
+
+
+
+## subjects
 
 First thought in this class is visible-light imaging spacecraft, but we also sense other things remotely.
 
