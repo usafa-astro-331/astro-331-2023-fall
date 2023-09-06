@@ -133,7 +133,7 @@ $$
 
 
 
-![image-20230905234050113](sources/image-20230905234050113.png)
+<img src="sources/image-20230905234050113.png" alt="image-20230905234050113" style="zoom: 50%;" />
 
 
 
