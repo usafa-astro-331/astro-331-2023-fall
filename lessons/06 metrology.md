@@ -182,6 +182,10 @@ Tidal: 24 bit/192 kHz
 
 ![sampling_frequency](sources/sampling_frequency.svg)
 
+![Davidjessop, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons](sources/FFT_aliasing.gif)
+
+
+
 (you won’t do this today)
 
 
