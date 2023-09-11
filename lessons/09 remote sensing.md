@@ -99,6 +99,8 @@ $$
 
 ![By Robert A. Rohde - This file has been extracted from another file, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24648395](sources/Solar_spectrum_en.svg)
 
+Bonus content: see spectra of various light sources https://research.ng-london.org.uk/scientific/spd/?page=spd&ids=15,16,10,23&noscale=0 
+
 
 
 ![from teledyne via scanway optics presentation at 2023 smallsat](sources/sensor_chemistry.jpg)
