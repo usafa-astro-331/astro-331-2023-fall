@@ -99,7 +99,20 @@ $$
 
 ![By Robert A. Rohde - This file has been extracted from another file, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24648395](sources/Solar_spectrum_en.svg)
 
+
+
+![from teledyne via scanway optics presentation at 2023 smallsat](sources/sensor_chemistry.jpg)
+
+
+
 ## optics
+
+Optical system focuses light/EM radiation onto sensor. Location on sensor depends on object’s location within the telescope’s field of view. 
+
+![from scanway’s 2023 smallsat presentation](sources/optical_path.png)
+
+
+
 
 $$
 \mathrm{magnification} = \frac{f}{h} = \frac{r_d}{R}
