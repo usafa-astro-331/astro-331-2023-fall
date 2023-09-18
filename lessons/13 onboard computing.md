@@ -238,11 +238,10 @@ https://arstechnica.com/science/2019/11/space-grade-cpus-how-do-you-send-more-co
   - Examples: ARM/EXECUTE command pairs for hazardous commands, extra solar array strings
 
 - **Fault protection**: the implementation of design intended to actively control the effects of a fault
-
   - Limited to detecting and responding to discrete defects which may arise in the operation of an otherwise healthy space vehicle
-
+  
   - Intended to detect faults (or the effect of a fault) and intervene so that the fault does not permanently affect the safety of the space vehicle
-
+  
 - **Fault management**: an engineering discipline that addresses the occurrence of faults on the space vehicle and provides a means for reducing their effect through cooperative design of both the space vehicle and ground elements and operator actions; includes fault tolerance, fault mitigation and fault protection
 
 ![image-20230918085344248](sources/image-20230918085344248.png)
@@ -323,6 +322,14 @@ $$
 
 
 ![image-20230918091015848](sources/image-20230918091015848.png)
+
+
+
+![image-20230918114402310](sources/image-20230918114402310.png)
+
+![image-20230918114345971](sources/image-20230918114345971.png)
+
+
 
 
 
