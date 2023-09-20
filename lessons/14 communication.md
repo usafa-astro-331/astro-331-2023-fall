@@ -1,7 +1,5 @@
 # 09: onboard computing
 
-
-
 ## admin
 
 today
@@ -16,8 +14,6 @@ Fri
 - prelab report due
   - https://www.overleaf.com/read/qksywqwkjcqb
 
-
-
 ## communication
 
 For today, we’ll primarily discuss satellite communication as communication with a satellite. 
@@ -26,8 +22,6 @@ Other forms of satcom include
 
 - satellite broadcasting 
 - ground-to-ground communication via satellite relay
-
-
 
 ### satcom architectures
 
@@ -47,25 +41,15 @@ communication with a satellite
   - leased (e.g. AWS)
 - spacecraft relay 
 
-
-
-
-
 jamming…
-
-
 
 ### communication performance
 
 Is the signal sufficient for understanding?
 
-
-
 Claude Shannon’s “Mathematical Theory of Communication” in *Bell System Technical Journal*
 
 ![https://archive.org/details/bellsystemtechni27amerrich/page/380/mode/2up](sources/Shannon-Communication_v1.jpg)
-
-
 
 #### Astro 310
 
@@ -114,15 +98,9 @@ $$
 
 differences?
 
-
-
 analog: $\frac{S}{N}>1$ 
 
 digital: (normalized energy per bit) $\frac{E_b}{N_0} > \ldots$ 8? 9? 10? 
-
-
-
-
 
 scale problems
 
@@ -131,9 +109,8 @@ scale problems
 - D
 - R
 
-
-
 To simplify calculations, comm engineers work in decibels (1 dB = bel/10). 
+
 $$
 X\ (dB) = 10 \log_{10} x\ (linear)
 $$
@@ -148,61 +125,50 @@ logarithms:
 - turn division into subtraction
 - map enormous ranges onto a smaller space
 
-
-
 A decibel is a ratio. In linear terms, multiplying by 1 causes no change. The decibel equivalent is adding 0. 
 
 Adding 3 dB is a doubling of signal strength. 
-
-
 
 Many things in a communication chain will amplify or attenuate a signal. 
 
 - amplifier
 - transmission line losses
 
-
-
 You will have one real unit in your comm dB equation
 
 - dBm: decibels relative to 1 mW
 - dBW: decibels relative to 1 W
 
-
-
-
-
 **Note:** other disciplines, including controls, use $X\ (dB) = 20 \log_{10} x\ (linear)$
 
-
-
 in dB
+
 $$
 \frac{E_b}{N_0} = \left( P_{xmtr}+G_{xmtr}+L_{xmtr} \right) 
 + ( L_s + L_m )
 + \left( G_{rcvr}+L_{rcvr}
-+228.6 -10 \log_{10}R - 10 \log_{10}T_{rcvr} \right)
+  +228.6 -10 \log_{10}R - 10 \log_{10}T_{rcvr} \right)  
 $$
-
 
 #### terms and concepts
 
 **$L_s$ free space path loss**
 
 ![Inverse_square_law](sources/Inverse_square_law.svg)
+
 $$
 L_s = \left(\frac{\lambda}{4 \pi D} \right) ^2
 $$
 
-
 **$L_m$ miscellaneous losses**
+
 $$
 L_m = L_{point,\ xmtr} + L_{point,\ rcvr} 
 + L_{polar} + L_{rain} 
 $$
 
-
 **$L_{point} $ pointing losses**
+
 $$
 L_{point} = -12 \left( \frac{\theta}{\theta_{3dB}} \right)^2 \  (dB)
 $$
@@ -210,22 +176,15 @@ $$
 - $\theta$ pointing error
 - $\theta_{3dB}$ half-power beamwidth
 
-
-
 **$\theta_{3dB}$ half-power beamwidth** 
 
 <img src="sources/radiation_pattern.png" alt="1611381092307_637469778908583943" style="zoom:50%;" />
 
 <img src="sources/half_power_beamwidth.png" alt="https://www.everythingrf.com/community/what-is-half-power-beam-width" style="zoom:50%;" />
 
-<img src="sources/half_power_beamwidth2.jpeg" alt="https://www.everythingrf.com/community/what-is-half-power-beam-width" style="zoom:50%;" />
-
-
-
-
+<img src="sources/half_power_beamwidth2.jpeg" alt="https://www.everythingrf.com/community/what-is-half-power-beam-width" style="zoom: 25%;" />
 
 ## homework
 
 - by Friday
   - communication prelab report
-
