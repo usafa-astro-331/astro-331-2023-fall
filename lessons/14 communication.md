@@ -74,7 +74,7 @@ $$
 $$
 \frac{E_b}{N_0} = \left( P_{xmtr}G_{xmtr}L_{xmtr} \right) 
 ( L_s L_m )
-\left( \frac{G_{rcvr}L_{rcvr}}{k B T_{rcvr}} \right)
+\left( \frac{G_{rcvr}L_{rcvr}}{k R T_{rcvr}} \right)
 $$
 
 $$
@@ -141,7 +141,7 @@ You will have one real unit in your comm dB equation
 in dB
 
 $$
-\frac{E_b}{N_0} = \left( P_{xmtr}+G_{xmtr}+L_{xmtr} \right) + ( L_s + L_m )+ \left( G_{rcvr}+L_{rcvr}  +228.6 -10 \log_{10}R - 10 log_{10}T_{rcvr} \right)  
+\frac{E_b}{N_0} = \left( P_{xmtr}+G_{xmtr}+L_{xmtr} \right) + ( L_s + L_m )+ \left( G_{rcvr}+L_{rcvr}  +228.6 -10 \log_{10}R - 10 log_{10}T_{rcvr} \right)
 $$
 
 #### terms and concepts
