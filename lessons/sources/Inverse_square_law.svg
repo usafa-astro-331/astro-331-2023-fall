@@ -1,0 +1,81 @@
+<svg width="480" height="320" font-family="Bitstream Vera Sans" font-size="16" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="rgSource">
+<stop offset="0" stop-color="#6798FF"/>
+<stop offset="1" stop-color="#6798FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="rgSpot">
+<stop offset="0" stop-color="#FF2A2A"/>
+<stop offset="1" stop-color="#FF2A2A" stop-opacity="0"/>
+</radialGradient>
+<marker id="arrow" orient="auto" overflow="visible">
+<path d="M-5.23-2.42 1.32-.01-5.23 2.4c1.05-1.42 1.04-3.37 0-4.82Z" stroke-linejoin="round" stroke="#F00" stroke-width=".38" fill="#F00"/>
+</marker>
+</defs>
+<rect width="480" height="320" fill="#FFF"/>
+<circle cx="59.92" cy="42.74" r="31.31" fill="url(#rgSource)"/>
+<path d="M172.53 106.83l49.81 28.29m67.86 32.99 23.7 13.46M59.5 42.68l75.42 42.78" fill="none" stroke="#000"/>
+<path d="M60.31 43.05l100 12.45M60.31 43.05l71.8 19.21M60.31 43.05l72.34 23.87M60.31 43.05 133.36 72.1M60.31 43.05l73.88 35.63M60.31 43.05l74.61 43.74M60.31 43.05l75.47 52.01M60.31 43.05l76.11 61.55M60.31 43.05l81.43 15.86" fill="none" stroke="#F00" stroke-linecap="round"/>
+<path d="M137.02 117.86c12.31-3.15 23.85-6.73 35.82-11.06-.61-17.69-1.66-35.29-3.17-53.16-12.63 2.88-25.23 4.89-37.83 7.02 2.83 18.98 4.48 38.03 5.18 57.2Z" fill="#FFFFDC" stroke="#000" stroke-linecap="square"/>
+<text id="A" x="248.05" y="236.57" transform="matrix(.938589,-.344278,0,1.065429,-91.92,-63.42)" fill="#FAFA6F" font-size="36.48" font-weight="bold">A</text>
+<path d="M166.77 56.3 274.26 69.69M140.59 64.53l77.05 20.62M166.16 77.98l53 17.5M148.08 77.96l72.44 28.8M152.94 87.72l68.56 33.07M166.36 105.23l56.17 32.93M155.69 108.77l67.23 46.33M140.18 107.64l82.55 66.77M155.17 61.52l84.99 16.55" fill="none" stroke="#F00" stroke-linecap="round"/>
+<ellipse id="spot" cx="166.92" cy="56.21" rx="3.08" ry="4.46" fill="url(#rgSpot)"/>
+<use xlink:href="#spot" x="-11.58" y="5.29"/>
+<use xlink:href="#spot" x="-26.03" y="8.31"/>
+<use xlink:href="#spot" x="-18.67" y="21.8"/>
+<use xlink:href="#spot" x="-0.72" y="21.87"/>
+<use xlink:href="#spot" x="-13.86" y="31.4"/>
+<use xlink:href="#spot" x="-0.55" y="49.19"/>
+<use xlink:href="#spot" x="-26.53" y="51.64"/>
+<use xlink:href="#spot" x="-11.1" y="52.48"/>
+<path d="M286.35 65.5c4.82 33.42 6.04 67.67 4.16 102.48-21.55 14.89-44.86 23.52-68.41 31.93 1.84-39.39 1.14-78.89-4.68-117.93 23.14-3.91 45.79-7.02 68.93-16.48Z" fill="#FFFFDC" stroke="#000" stroke-linecap="square"/>
+<path d="M255.27 75.03c3.14 37.59 4.29 73.9 3.13 110.63m-35.67-46.69c23.75-6.09 45.59-13.44 67.98-24.99" fill="none" stroke="#000" stroke-linecap="square"/>
+<use xlink:href="#A" x="85.38" y="21.5"/>
+<path d="M283.83 70.88 387.01 83.73M230.64 88.63l78.32 20.96M274.62 113.78l36.11 11.92M245.02 116.51l67.35 26.78M254.05 136.48l59.41 28.65M279.35 171.48l34.42 20.18M260.44 180.96l52.66 36.29M231.05 181.14l80.41 65.04M250.96 80.18 343.51 98.2" fill="none" stroke="#F00" stroke-linecap="round"/>
+<use xlink:href="#spot" x="116.85" y="14.63"/>
+<use xlink:href="#spot" x="84.25" y="23.92"/>
+<use xlink:href="#spot" x="64" y="32.52"/>
+<use xlink:href="#spot" x="78.21" y="60.43"/>
+<use xlink:href="#spot" x="107.87" y="57.71"/>
+<use xlink:href="#spot" x="87.24" y="80.3"/>
+<use xlink:href="#spot" x="112.43" y="115.27"/>
+<use xlink:href="#spot" x="93.51" y="124.8"/>
+<use xlink:href="#spot" x="64.4" y="125.08"/>
+<path d="M308.23 104.81c30.47-5.14 60.95-9.63 91.43-27.86 5.54 39.23 9.09 80.44 0 134.29-26.58 36.95-59.79 52.36-91.43 72.86 5.89-60.3 8.8-120.33 0-179.29Z" fill="#FFFFDC" stroke="#000" stroke-linecap="square"/>
+<path d="M346.09 97.87c4.59 54.99 4.92 109.13 0 162.23M377.16 88.39c6.9 47.83 6.43 97.24 0 147.92M312.99 222.4c32.13-11.04 63.96-23.15 91.42-51.02M312.74 161.98c31.8-8.15 62.96-18.89 91.92-38.39" fill="none" stroke="#000"/>
+<use xlink:href="#A" x="176.45" y="45.17"/>
+<g fill="none" stroke="#F00" stroke-linecap="round" marker-end="url(#arrow)">
+<path d="M395.29 84.76l53.26 6.63"/>
+<path d="M336.35 116.92l50.69 13.57"/>
+<path d="M386.25 150.63l56.51 18.65"/>
+<path d="M342.24 155.17l55.07 21.91"/>
+<path d="M352.63 184.02l48.87 23.57"/>
+<path d="M380.26 230.65l33.12 19.42"/>
+<path d="M353.9 245.37l34.22 23.58"/>
+<path d="M321.96 254.67l38.25 30.94"/>
+<path d="M354.79 100.4l72.17 14.06"/>
+</g>
+<use xlink:href="#spot" x="228.5" y="28.37"/>
+<use xlink:href="#spot" x="187.9" y="44.1"/>
+<use xlink:href="#spot" x="169.46" y="60.68"/>
+<use xlink:href="#spot" x="219.31" y="94.33"/>
+<use xlink:href="#spot" x="175.62" y="99.25"/>
+<use xlink:href="#spot" x="185.51" y="127.72"/>
+<use xlink:href="#spot" x="213.3" y="174.34"/>
+<use xlink:href="#spot" x="186.87" y="189.16"/>
+<use xlink:href="#spot" x="155" y="198.53"/>
+<path d="M307.83 284 59.39 42.52M59.54 42.68l248.87 62.13M59.48 42.69 399.51 76.67" fill="none" stroke="#000"/>
+<switch>
+<g systemLanguage="simple">
+<text y="129.65" x="130.93">d</text>
+<text y="216.28" x="209.06">2d</text>
+<text y="297.71" x="298.35">3d</text>
+</g>
+<g>
+<text y="129.65" x="130.93">r</text>
+<text y="216.28" x="209.06">2r</text>
+<text y="297.71" x="298.35">3r</text>
+</g>
+</switch>
+<text y="48.49" x="49.5">S</text>
+</svg>
