@@ -1,4 +1,4 @@
-# 09: onboard computing
+# 14: communication
 
 ## admin
 
@@ -41,7 +41,7 @@ communication with a satellite
   - leased (e.g. AWS)
 - spacecraft relay 
 
-jamming…
+
 
 ### communication performance
 
@@ -228,9 +228,22 @@ directionality compared to an isotropic antenna
 
 dipole antenna gain: 2.15 dBi
 
+Parabolic gain
+
+$$
+G= \left( \frac{\pi D_r}{\lambda} \right)^2 \eta
+$$
+
+- $\eta$: antenna efficiency 
+  - typically 0.55–0.7 for parabolic dishes
 
 
 
+### additional info
+
+- jamming
+- EIRP
+- smallsat example
 
 
 
