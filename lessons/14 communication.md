@@ -54,10 +54,7 @@ Claude Shannon’s “Mathematical Theory of Communication” in *Bell System Te
 #### Astro 310
 
 $$
-\frac{S}{N} = \left( \frac{P_{xmtr}G_{xmtr}}{k B} \right) 
-\left( \frac{\lambda}{4 \pi R} \right)^2 
-\left( \frac{G_{rcvr}}{T_{rcvr}} \right)
-> 1
+\frac{S}{N} = \left( \frac{P_{xmtr}G_{xmtr}}{k B} \right) \left( \frac{\lambda}{4 \pi R} \right)^2 \left( \frac{G_{rcvr}}{T_{rcvr}} \right) > 1
 $$
 
 $$
@@ -144,10 +141,7 @@ You will have one real unit in your comm dB equation
 in dB
 
 $$
-\frac{E_b}{N_0} = \left( P_{xmtr}+G_{xmtr}+L_{xmtr} \right) 
-+ ( L_s + L_m )
-+ \left( G_{rcvr}+L_{rcvr}
-  +228.6 -10 \log_{10}R - 10 \log_{10}T_{rcvr} \right)  
+\frac{E_b}{N_0} = \left( P_{xmtr}+G_{xmtr}+L_{xmtr} \right) + ( L_s + L_m )+ \left( G_{rcvr}+L_{rcvr}  +228.6 -10 \log_{10}R - 10 log_{10}T_{rcvr} \right)  
 $$
 
 #### terms and concepts
@@ -161,10 +155,8 @@ L_s = \left(\frac{\lambda}{4 \pi D} \right) ^2
 $$
 
 **$L_m$ miscellaneous losses**
-
 $$
-L_m = L_{point,\ xmtr} + L_{point,\ rcvr} 
-+ L_{polar} + L_{rain} 
+L_m = L_{point,\ xmtr} + L_{point,\ rcvr} + L_{polar} + L_{atmos} + L_{rain}
 $$
 
 **$L_{point} $ pointing losses**
@@ -183,6 +175,64 @@ $$
 <img src="sources/half_power_beamwidth.png" alt="https://www.everythingrf.com/community/what-is-half-power-beam-width" style="zoom:50%;" />
 
 <img src="sources/half_power_beamwidth2.jpeg" alt="https://www.everythingrf.com/community/what-is-half-power-beam-width" style="zoom: 25%;" />
+
+
+
+depends on antenna type
+
+Parabolic: 
+
+$$
+\theta_{3dB} = 70 \frac{\lambda}{D_p}
+$$
+
+- $D_p$: diameter of parabolic reflector
+
+
+
+**$L_{polar}$ polarization losses**
+
+![image-20230920010655060](sources/polarization.png)
+
+$$
+L_{polar} = 10 \log_{10} \cos^2 \theta \ (dB)
+$$
+
+**$L_{atmos}$ atmospherics losses**
+
+![image-20230920011146900](sources/image-20230920011146900.png)
+
+$$
+L_{atmos} = \frac{A_{zenith}}{\sin\varepsilon}
+$$
+
+**$L_{rain}$ rain losses**
+
+| frequency          | attenuation |
+| ------------------ | ----------- |
+| <6 GHz             | 0           |
+| 6 GHz < f < 18 GHz | -7 dB       |
+| >18 GHz            | $\infty$    |
+
+
+
+**$G$ gain **
+
+amplification (positive)
+
+directionality compared to an isotropic antenna
+
+![https://en.wikipedia.org/wiki/Gain_%28antenna%29#/media/File:Antenna_directive_gain_diagram.svg](sources/Antenna_directive_gain_diagram.svg)
+
+<img src="sources/dipole_gain.png" alt="image-20230920013555204" style="zoom:50%;" />
+
+dipole antenna gain: 2.15 dBi
+
+
+
+
+
+
 
 ## homework
 
