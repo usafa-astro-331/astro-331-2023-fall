@@ -89,7 +89,7 @@ $$
 \frac{E_b}{N_0} = \frac{S}{N} \frac{B}{R}
 $$
 
-- B: bandwidth
+- R: data rate (bits/sec)
 - $L_m$ miscellaneous losses (<1)
 - $L_s$ free space path loss (<1)
 
@@ -195,7 +195,7 @@ $$
 ![image-20230920010655060](sources/polarization.png)
 
 $$
-L_{polar} = 10 \log_{10} \cos^2 \theta \ (dB)
+L_{polar} = \cos^2 \theta 
 $$
 
 **$L_{atmos}$ atmospherics losses**
@@ -203,7 +203,7 @@ $$
 ![image-20230920011146900](sources/image-20230920011146900.png)
 
 $$
-L_{atmos} = \frac{A_{zenith}}{\sin\varepsilon}
+L_{atmos} = \frac{A_{zenith}}{\sin\varepsilon} \ (dB)
 $$
 
 **$L_{rain}$ rain losses**
