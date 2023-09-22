@@ -1,6 +1,6 @@
 #include "xbee_pins.h"
 
-#include "LED_pins.h"
+// #include "LED_pins.h"
 #include "input.h"
 
 // Network ID for XBee communication
@@ -35,8 +35,8 @@ void setup() {
   // end of XBee channel configuration
 
 
-  pinMode(LED_pin, OUTPUT); 
-  digitalWrite(LED_pin, LOW); 
+  // pinMode(LED_pin, OUTPUT); 
+  // digitalWrite(LED_pin, LOW); 
 
 
 // clear terminal screen 

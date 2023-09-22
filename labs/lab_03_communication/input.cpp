@@ -1,5 +1,5 @@
 #include "input.h"
-#include "global_var.h"
+#include "LED_pins.h"
 
 void get_command_from_pc() {
   int space, do_it = 0;         // For reading in a space from the PC
