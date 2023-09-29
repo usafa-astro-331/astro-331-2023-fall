@@ -70,13 +70,13 @@ For a 3-axis stabilized spacecraft, attitude authority (torque) must be greater 
 
 ![disturbance_torques](sources/disturbance_torques.png)
 
-| disturbance torque                                                                                                                                                                                                                                       |                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| gravity-gradient                                                                                                                                                                                                                                         | $ T_g = \frac{3 \mu}{2R^3} $                                                                                       |
+| disturbance torque                                           |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| gravity-gradient                                             | $ T_g = \frac{3 \mu}{2R^3} |I_{yaw}-I_{other} | \sin 2\theta $ |
 | magnetic<br /><br />D: spacecraft magnetic dipole, amp-turn-m$^2$ (A m$^2$)<br />N: turns of magnet wire<br />I: magnet current (A)<br />B: Earth’s magnetic field strength strength (T)<br />M: Earth’s magnetic moment ($7.96 \times 10^{15}$ T m$^3$) | $T_m = DB = NIA_{coil} B$<br /><br />$B_{pole}\approx\frac{2 M}{R^3}$<br /><br />$B_{equator}\approx\frac{M}{R^3}$ |
-| drag                                                                                                                                                                                                                                                     | $T_{drag} = F_{drag} (c_{drag}-c_m)$<br />$F_{drag} = \frac{1}{2}\rho V^2 C_d A$                                   |
-| solar radiation pressure<br /><br />q: reflectance (0<q<1, unitless)                                                                                                                                                                                     | $T_{SRP} = F_{SRP} (c_{SRP}-c_m)$<br />$F_{SRP} = \frac{S_\oplus}{c}A_s(1+q)\cos i$                                |
-| cosmic dust                                                                                                                                                                                                                                              | negligible                                                                                                         |
+| drag                                                         | $T_{drag} = F_{drag} (c_{drag}-c_m)$<br />$F_{drag} = \frac{1}{2}\rho V^2 C_d A$ |
+| solar radiation pressure<br /><br />q: reflectance (0<q<1, unitless) | $T_{SRP} = F_{SRP} (c_{SRP}-c_m)$<br />$F_{SRP} = \frac{S_\oplus}{c}A_s(1+q)\cos i$ |
+| cosmic dust                                                  | negligible                                                   |
 
 ### countering disturbance torques
 
