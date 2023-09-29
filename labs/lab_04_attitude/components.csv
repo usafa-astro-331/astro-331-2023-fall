@@ -1,0 +1,9 @@
+Lab #,#/flatsat,Part Number,Description, Cost/ea ,V(in),Comments,Link
+4 attitude,1,ICM-20948,9DoF IMU,18.5,5V,gyroscope/accelerometer/magnetometer,https://www.sparkfun.com/products/15335
+4 attitude,1,4758,DC brushed motor w/ encoder,47.79,12V,Reaction wheel motor w/ encoder to read speed,https://www.pololu.com/product/4758
+4 attitude,1,2997,DC motor controller,10.99,5V,DC motor controller to command reaction wheel,https://www.pololu.com/product/2997
+4 attitude,0.125,360-H02 extruded,"4"" diameter brass rod",600.05,,Brass to machine reaction wheels out of,https://www.onlinemetals.com/en/buy/brass/4-brass-round-bar-360-h02-extruded/pid/1292
+4 attitude,3,,18650 battery,4.5,,epoch 18650 2.6Ah protected battery,https://www.18650batterystore.com/collections/18650-batteries/products/epoch-18650-2600mah-8a-protected-button-top-battery
+4 attitude,1,1385,5V BEC power supply,7.98,,UBEC DC/DC Step-Down (Buck) Converter - 5V @ 3A output,https://www.adafruit.com/product/1385
+4 attitude,1,106990288,3S battery holder,0.6,,3-cell 18650 battery holder,https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/106990288/10451902
+4 attitude,0.04,222-413/K194-4045,Wago splice,21.83,,(box of 50) terminal butt splice,https://www.digikey.com/en/products/detail/wago-corporation/222-413-K194-4045/13549312
