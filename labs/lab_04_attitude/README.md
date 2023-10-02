@@ -68,7 +68,7 @@ Copy the setup below, but **do not place the 3rd (middle) cell into the battery 
 
 **Note:** the connection between the Arduino and the 5V rail has moved from previous labs. It’s now connected to Vin. 
 
-![attitude_bb](sources/04_attitude_bb.svg)
+![attitude_bb](../../fritzing_diagrams/04_attitude_bb.svg)
 
 - place IMU (red square) 
   - connect to Arduino with QWIIC cable
