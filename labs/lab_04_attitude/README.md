@@ -58,46 +58,27 @@ https://www.overleaf.com/read/prdzpknpdtgf
 
 ## setup
 
-For today’s lab, FlatSAT will be powered by a lithium ion battery. 
+For today’s lab, FlatSAT will be powered by a 12 V lithium ion battery. The motor driver and motor are powered directly from the battery’s 12 V supply. The Arduino itself is powered via a 12 V $\rightarrow$ 5 V BEC (battery eliminator circuit). Everything else is powered by Arduino’s Vcc pin (3.3 V). 
 
-- connect power and ground 
 
-  - **Note: ensure that 12V is only applied to the BEC and one pin of the motor driver board**
-  - Using a wago, connect 3 12V lines
-    - battery
-    - BEC
-    - motor carrier
 
-  - repeat with 3 ground lines
-    - battery
-    - BEC
-    - breadboard ground rail
+Copy the setup below, but **do not place the 3rd (middle) cell into the battery holder yet**. 
 
-- prepare to connect BEC 5V output to FlatSAT
 
-  - connect ground
-  - **Note: do not connect power at this time**
 
-  
+**Note:** the connection between the Arduino and the 5V rail has moved from previous labs. It’s now connected to Vin. 
 
-- place IMU (red square) and motor driver (green square) on FlatSAT
+![attitude_bb](sources/04_attitude_bb.svg)
+
+- place IMU (red square) 
+  - connect to Arduino with QWIIC cable
+  - follow pin/color definitions in `IMU_pins.h`
+- motor driver (green square) 
+  - connect to Arduino and motor
+  - follow pin/color definitions in `motor_controller_pins.h`
 - place an LED on pin A0 and connect it to ground via a resistor—the short leg must connect to ground. 
 
   - same wiring as in communication lab
-
-
-![attitude_bb](../sources/fritzing/331X.svg)
-
-### IMU
-
-The inertial measurement unit (IMU) communicates with Arduino via I2C. 
-
-![SPI_labels](sources/SPI_labels.jpg)
-
-- power
-- ground
-- SDA
-- SCL
 
 ### motor driver
 
@@ -108,28 +89,6 @@ FlatSAT controls a brushed DC motor via a Toshiba TB9051FTG brushed motor driver
 ![img](sources/clip_image002.jpg)
 
 
-
-- (driver pin–Arduino pin)
-
-- GND to ground
-
-- ENB to ground
-
-- VCC to 5V
-
-- EN to 5V
-
-- PWM2–D3 (~3)
-
-- PWM1–D2 (~2)
-
-- OCM–A1
-
-  
-
-- leave 2 wires sticking out of Vin and GND (the motor side)
-
-  - These will later connect to a 12V supply for motor power
 
 ### motor
 
@@ -142,14 +101,7 @@ The motor has a 6-wire connector with 2 wires each for motor power, speed encode
 
 <img src="sources/motor_connector.png" alt="motor_connector" style="zoom: 50%;" />
 
-| FlatSAT pin       | motor harness color | function         |
-| ----------------- | ------------------- | ---------------- |
-| motor driver OUT1 | red                 | motor power      |
-| motor driver OUT2 | black               | motor power      |
-| ground            | green               | encoder ground   |
-| 3.3V              | blue                | encoder power    |
-| Arduino A2        | yellow              | encoder output A |
-| Arduino D6        | white               | encoder output B |
+
 
 ## rotor mass properties
 
