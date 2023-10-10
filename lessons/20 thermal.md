@@ -142,7 +142,7 @@ Q_{albedo} = 407\ \mathrm{W/m^2} \alpha A \frac{R_\oplus}{R_\oplus + h}
 $$
 
 $$
-Q_{Earth\ IR} = 1358\ \mathrm{W/m^2} \varepsilon A \frac{R_\oplus}{R_\oplus + h}
+Q_{Earth\ IR} = 237\ \mathrm{W/m^2} \varepsilon A \frac{R_\oplus}{R_\oplus + h}
 $$
 
 ## Astro 331 model
@@ -166,7 +166,7 @@ $$
   - side length = 2.5 m
 - internal power: 450–500 W
 - deployed solar arrays 
-  - A = 7 m^2
+  - A = 7 m^2^
   - P~BOL~ = 1350 W
 
 |             | $\alpha$ | $\varepsilon_{IR}$ |
