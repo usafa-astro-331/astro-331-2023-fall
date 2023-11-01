@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="97mm"
-   height="58mm"
-   viewBox="0 0 106.89711 63.917859"
+   width="95.161003mm"
+   height="53.764mm"
+   viewBox="0 0 104.87047 59.249651"
    version="1.1"
    id="svg1"
    sodipodi:docname="slew_maneuver.svg"
@@ -25,11 +25,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.3382934"
-     inkscape:cx="250.39629"
-     inkscape:cy="146.90201"
-     inkscape:window-width="2551"
+     inkscape:cx="235.64194"
+     inkscape:cy="139.20409"
+     inkscape:window-width="2547"
      inkscape:window-height="1472"
-     inkscape:window-x="125"
+     inkscape:window-x="129"
      inkscape:window-y="-12"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -590,32 +590,32 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-87.158549,-169.12915)">
+     transform="translate(-91.476063,-171.33471)">
     <g
        inkscape:label="Dim"
        id="g47"
-       transform="translate(190.94161,100.41509)" />
+       transform="translate(193.14577,102.61919)" />
     <g
        inkscape:label="Dim"
        id="g48"
-       transform="translate(190.94161,100.41509)" />
+       transform="translate(193.14577,102.61919)" />
     <path
        style="opacity:1;fill:none;stroke:#cccccc;stroke-width:1.10204;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
-       d="m 99.38123,171.88573 v 45.6833 h 91.77773"
+       d="m 101.58539,174.08983 v 45.6833 h 91.77773"
        id="path3" />
     <text
        xml:space="preserve"
        style="font-size:5.44285px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;opacity:1;fill:#000000;stroke:none;stroke-width:1.10204;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="151.16147"
-       y="230.78702"
+       x="153.36563"
+       y="228.32584"
        id="text7"><tspan
          sodipodi:role="line"
          id="tspan7"
          style="stroke-width:1.10204"
-         x="151.16147"
-         y="230.78702">time</tspan></text>
+         x="153.36563"
+         y="228.32584">time</tspan></text>
     <g
-       transform="matrix(0.7264348,0,0,0.7264348,89.726677,178.16877)"
+       transform="matrix(0.7264348,0,0,0.7264348,93.680316,180.37287)"
        ns2:version="1.9.0"
        ns2:texconverter="pdflatex"
        ns2:pdfconverter="inkscape"
@@ -684,7 +684,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.72643477,0,0,0.72643477,118.96196,178.16877)"
+       transform="matrix(0.72643477,0,0,0.72643477,121.16612,180.37287)"
        ns2:version="1.9.0"
        ns2:texconverter="pdflatex"
        ns2:pdfconverter="inkscape"
@@ -753,20 +753,20 @@
       </g>
     </g>
     <path
-       style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.10204;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#DimmArrow_End_n00002)"
-       d="m 99.38123,228.89826 c 28.49349,0 28.49349,0 28.49349,0"
+       style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.495914;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#DimmArrow_End_n00002)"
+       d="m 101.58539,226.43708 c 28.49349,0 28.49349,0 28.49349,0"
        id="path12" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:1.10204;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#DimmArrow_End_n00002-2)"
-       d="m 91.219183,217.56903 c 0,-16.47692 0,-16.47692 0,-16.47692"
+       style="fill:#000000;stroke:#000000;stroke-width:0.495914;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#DimmArrow_End_n00002-2)"
+       d="m 95.172822,219.77313 c 0,-16.47692 0,-16.47692 0,-16.47692"
        id="path12-4" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.10204;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
-       d="m 99.38123,217.56903 45.93341,-45.84431 45.84432,45.84431"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.10203;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+       d="m 101.58539,219.77313 45.93341,-45.84431 45.84432,45.84431"
        id="path15" />
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.220407;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
-       d="m 112.99431,203.98234 v -15.67345 h 15.70392"
+       d="m 115.19847,206.18644 v -15.67345 h 15.70392"
        id="path16" />
   </g>
 </svg>

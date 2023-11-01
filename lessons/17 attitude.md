@@ -195,12 +195,12 @@ SMAD’s approach:
   - Note: root mean square (quadratic mean) of a sinusoidal function is $\frac{peak}{\sqrt{2}}$
 - identify max of $\int T dt$
 
-| disturbance              | periodicity    | momentum req’t <br />(pick max)            | ω$_{\mathbf{max}}$ req’t                         |
-| ------------------------ | -------------- | ------------------------------------------ | ------------------------------------------------ |
-| gravity-gradient         | $\mathbb{P}/2$ | $h=\frac{T_g }{4\sqrt{2}} \mathbb{P}$      | $\omega_{max}=\frac{T_g\mathbb{P}}{2 I \pi}$     |
-| magnetic                 | $\mathbb{P}/2$ | $h=\frac{T_m }{4\sqrt{2}} \mathbb{P}$      | $\omega_{max}=\frac{T_m\mathbb{P}}{2 I \pi}$     |
-| solar radiation pressure | $\mathbb{P}$   | $h= \frac{T_{SRP}}{2\sqrt{2}} \mathbb{P}$  | $\omega_{max}=\frac{T_{SRP}\mathbb{P}}{ I \pi}$  |
-| drag                     | $\mathbb{P}$   | $h=\frac{T_{drag} }{2\sqrt{2}} \mathbb{P}$ | $\omega_{max}=\frac{T_{drag}\mathbb{P}}{ I \pi}$ |
+| disturbance              | periodicity    | momentum req’t <br />(pick max)       | ω$_{\mathbf{max}}$ req’t                         |
+| ------------------------ | -------------- | ------------------------------------- | ------------------------------------------------ |
+| gravity-gradient         | $\mathbb{P}/2$ | $h=\frac{T_g }{4\sqrt{2}} \mathbb{P}$ | $\omega_{max}=\frac{T_g\mathbb{P}}{2 I \pi}$     |
+| magnetic                 | $\mathbb{P}/2$ | $h=\frac{T_m }{4\sqrt{2}} \mathbb{P}$ | $\omega_{max}=\frac{T_m\mathbb{P}}{2 I \pi}$     |
+| solar radiation pressure | may be secular | $h= T_{SRP} \mathbb{P}$               | $\omega_{max}=\frac{T_{SRP}\mathbb{P}}{ I \pi}$  |
+| drag                     | may be secular | $h=T_{drag}  \mathbb{P}$              | $\omega_{max}=\frac{T_{drag}\mathbb{P}}{ I \pi}$ |
 
 Ignoring cost or mass concerns, more momentum storage is better. Over a longer time period, it is possible that disturbances will partially cancel each other.  
 
